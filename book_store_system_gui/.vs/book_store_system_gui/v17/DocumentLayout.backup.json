@@ -1,0 +1,44 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Rith\\Desktop\\Book_Store_System\\book_store_system_gui\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{24027F13-5085-4825-B69E-8B56DC8F24A1}|book_store_system_gui.csproj|c:\\users\\rith\\desktop\\book_store_system\\book_store_system_gui\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{24027F13-5085-4825-B69E-8B56DC8F24A1}|book_store_system_gui.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Rith\\Desktop\\Book_Store_System\\book_store_system_gui\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\Users\\Rith\\Desktop\\Book_Store_System\\book_store_system_gui\\Form1.cs [Design]",
+              "RelativeToolTip": "Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-09T12:19:31.128Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
