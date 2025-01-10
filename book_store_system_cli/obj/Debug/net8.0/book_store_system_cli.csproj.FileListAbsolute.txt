@@ -1,0 +1,15 @@
+C:\Users\Rith\Desktop\Book_Store_System\book_store_system_cli\bin\Debug\net8.0\book_store_system_cli.exe
+C:\Users\Rith\Desktop\Book_Store_System\book_store_system_cli\bin\Debug\net8.0\book_store_system_cli.deps.json
+C:\Users\Rith\Desktop\Book_Store_System\book_store_system_cli\bin\Debug\net8.0\book_store_system_cli.runtimeconfig.json
+C:\Users\Rith\Desktop\Book_Store_System\book_store_system_cli\bin\Debug\net8.0\book_store_system_cli.dll
+C:\Users\Rith\Desktop\Book_Store_System\book_store_system_cli\bin\Debug\net8.0\book_store_system_cli.pdb
+C:\Users\Rith\Desktop\Book_Store_System\book_store_system_cli\obj\Debug\net8.0\book_store_system_cli.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Rith\Desktop\Book_Store_System\book_store_system_cli\obj\Debug\net8.0\book_store_system_cli.AssemblyInfoInputs.cache
+C:\Users\Rith\Desktop\Book_Store_System\book_store_system_cli\obj\Debug\net8.0\book_store_system_cli.AssemblyInfo.cs
+C:\Users\Rith\Desktop\Book_Store_System\book_store_system_cli\obj\Debug\net8.0\book_store_system_cli.csproj.CoreCompileInputs.cache
+C:\Users\Rith\Desktop\Book_Store_System\book_store_system_cli\obj\Debug\net8.0\book_store_system_cli.sourcelink.json
+C:\Users\Rith\Desktop\Book_Store_System\book_store_system_cli\obj\Debug\net8.0\book_store_system_cli.dll
+C:\Users\Rith\Desktop\Book_Store_System\book_store_system_cli\obj\Debug\net8.0\refint\book_store_system_cli.dll
+C:\Users\Rith\Desktop\Book_Store_System\book_store_system_cli\obj\Debug\net8.0\book_store_system_cli.pdb
+C:\Users\Rith\Desktop\Book_Store_System\book_store_system_cli\obj\Debug\net8.0\book_store_system_cli.genruntimeconfig.cache
+C:\Users\Rith\Desktop\Book_Store_System\book_store_system_cli\obj\Debug\net8.0\ref\book_store_system_cli.dll
