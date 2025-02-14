@@ -6,10 +6,8 @@ using System.Threading.Tasks;
 
 namespace book_store_system_gui.Library
 {
-    internal class User : Account
+    internal class Funk
     {
-        Account account = new Account();
         
-
     }
 }

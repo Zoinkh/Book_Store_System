@@ -3,24 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\Rith\\Desktop\\Book_Store_System\\book_store_system_gui\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{24027F13-5085-4825-B69E-8B56DC8F24A1}|book_store_system_gui.csproj|c:\\users\\rith\\desktop\\book_store_system\\book_store_system_gui\\userform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{24027F13-5085-4825-B69E-8B56DC8F24A1}|book_store_system_gui.csproj|solutionrelative:userform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{24027F13-5085-4825-B69E-8B56DC8F24A1}|book_store_system_gui.csproj|c:\\users\\rith\\desktop\\book_store_system\\book_store_system_gui\\ui\\additem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{24027F13-5085-4825-B69E-8B56DC8F24A1}|book_store_system_gui.csproj|solutionrelative:ui\\additem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{24027F13-5085-4825-B69E-8B56DC8F24A1}|book_store_system_gui.csproj|c:\\users\\rith\\desktop\\book_store_system\\book_store_system_gui\\signinform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{24027F13-5085-4825-B69E-8B56DC8F24A1}|book_store_system_gui.csproj|solutionrelative:signinform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{24027F13-5085-4825-B69E-8B56DC8F24A1}|book_store_system_gui.csproj|c:\\users\\rith\\desktop\\book_store_system\\book_store_system_gui\\ui\\adduser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{24027F13-5085-4825-B69E-8B56DC8F24A1}|book_store_system_gui.csproj|solutionrelative:ui\\adduser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{24027F13-5085-4825-B69E-8B56DC8F24A1}|book_store_system_gui.csproj|c:\\users\\rith\\desktop\\book_store_system\\book_store_system_gui\\signinform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{24027F13-5085-4825-B69E-8B56DC8F24A1}|book_store_system_gui.csproj|solutionrelative:signinform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{24027F13-5085-4825-B69E-8B56DC8F24A1}|book_store_system_gui.csproj|c:\\users\\rith\\desktop\\book_store_system\\book_store_system_gui\\ui\\checkout.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{24027F13-5085-4825-B69E-8B56DC8F24A1}|book_store_system_gui.csproj|solutionrelative:ui\\checkout.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{24027F13-5085-4825-B69E-8B56DC8F24A1}|book_store_system_gui.csproj|c:\\users\\rith\\desktop\\book_store_system\\book_store_system_gui\\library\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{24027F13-5085-4825-B69E-8B56DC8F24A1}|book_store_system_gui.csproj|solutionrelative:library\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{24027F13-5085-4825-B69E-8B56DC8F24A1}|book_store_system_gui.csproj|c:\\users\\rith\\desktop\\book_store_system\\book_store_system_gui\\ui\\updateuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{24027F13-5085-4825-B69E-8B56DC8F24A1}|book_store_system_gui.csproj|solutionrelative:ui\\updateuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{24027F13-5085-4825-B69E-8B56DC8F24A1}|book_store_system_gui.csproj|c:\\users\\rith\\desktop\\book_store_system\\book_store_system_gui\\adimmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{24027F13-5085-4825-B69E-8B56DC8F24A1}|book_store_system_gui.csproj|solutionrelative:adimmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{24027F13-5085-4825-B69E-8B56DC8F24A1}|book_store_system_gui.csproj|c:\\users\\rith\\desktop\\book_store_system\\book_store_system_gui\\ui\\signinform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{24027F13-5085-4825-B69E-8B56DC8F24A1}|book_store_system_gui.csproj|solutionrelative:ui\\signinform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24027F13-5085-4825-B69E-8B56DC8F24A1}|book_store_system_gui.csproj|c:\\users\\rith\\desktop\\book_store_system\\book_store_system_gui\\ui\\itemdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{24027F13-5085-4825-B69E-8B56DC8F24A1}|book_store_system_gui.csproj|solutionrelative:ui\\itemdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,64 +46,74 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UserForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Rith\\Desktop\\Book_Store_System\\book_store_system_gui\\UserForm.cs",
-              "RelativeDocumentMoniker": "UserForm.cs",
-              "ToolTip": "C:\\Users\\Rith\\Desktop\\Book_Store_System\\book_store_system_gui\\UserForm.cs [Design]",
-              "RelativeToolTip": "UserForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-06T09:14:03.661Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Book.cs",
-              "DocumentMoniker": "C:\\Users\\Rith\\Desktop\\Book_Store_System\\book_store_system_gui\\Library\\Book.cs",
-              "RelativeDocumentMoniker": "Library\\Book.cs",
-              "ToolTip": "C:\\Users\\Rith\\Desktop\\Book_Store_System\\book_store_system_gui\\Library\\Book.cs",
-              "RelativeToolTip": "Library\\Book.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAArAAAAAAAAAA==",
+              "Title": "UpdateUser.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Rith\\Desktop\\Book_Store_System\\book_store_system_gui\\UI\\UpdateUser.cs",
+              "RelativeDocumentMoniker": "UI\\UpdateUser.cs",
+              "ToolTip": "C:\\Users\\Rith\\Desktop\\Book_Store_System\\book_store_system_gui\\UI\\UpdateUser.cs [Design]",
+              "RelativeToolTip": "UI\\UpdateUser.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-06T09:09:21.928Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "SigninForm.cs",
-              "DocumentMoniker": "C:\\Users\\Rith\\Desktop\\Book_Store_System\\book_store_system_gui\\SigninForm.cs",
-              "RelativeDocumentMoniker": "SigninForm.cs",
-              "ToolTip": "C:\\Users\\Rith\\Desktop\\Book_Store_System\\book_store_system_gui\\SigninForm.cs",
-              "RelativeToolTip": "SigninForm.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAYwBEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-06T09:01:53.387Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "SigninForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Rith\\Desktop\\Book_Store_System\\book_store_system_gui\\SigninForm.cs",
-              "RelativeDocumentMoniker": "SigninForm.cs",
-              "ToolTip": "C:\\Users\\Rith\\Desktop\\Book_Store_System\\book_store_system_gui\\SigninForm.cs [Design]",
-              "RelativeToolTip": "SigninForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-06T09:01:43.889Z",
+              "WhenOpened": "2025-02-14T15:47:50.323Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "AdimMenu.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Rith\\Desktop\\Book_Store_System\\book_store_system_gui\\AdimMenu.cs",
-              "RelativeDocumentMoniker": "AdimMenu.cs",
-              "ToolTip": "C:\\Users\\Rith\\Desktop\\Book_Store_System\\book_store_system_gui\\AdimMenu.cs [Design]",
-              "RelativeToolTip": "AdimMenu.cs [Design]",
+              "Title": "SigninForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Rith\\Desktop\\Book_Store_System\\book_store_system_gui\\UI\\SigninForm.cs",
+              "RelativeDocumentMoniker": "UI\\SigninForm.cs",
+              "ToolTip": "C:\\Users\\Rith\\Desktop\\Book_Store_System\\book_store_system_gui\\UI\\SigninForm.cs [Design]",
+              "RelativeToolTip": "UI\\SigninForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-06T09:00:43.435Z",
+              "WhenOpened": "2025-02-14T15:47:47.413Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Checkout.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Rith\\Desktop\\Book_Store_System\\book_store_system_gui\\UI\\Checkout.cs",
+              "RelativeDocumentMoniker": "UI\\Checkout.cs",
+              "ToolTip": "C:\\Users\\Rith\\Desktop\\Book_Store_System\\book_store_system_gui\\UI\\Checkout.cs [Design]",
+              "RelativeToolTip": "UI\\Checkout.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T15:47:44.733Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AddItem.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Rith\\Desktop\\Book_Store_System\\book_store_system_gui\\UI\\AddItem.cs",
+              "RelativeDocumentMoniker": "UI\\AddItem.cs",
+              "ToolTip": "C:\\Users\\Rith\\Desktop\\Book_Store_System\\book_store_system_gui\\UI\\AddItem.cs [Design]",
+              "RelativeToolTip": "UI\\AddItem.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T15:46:19.649Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ItemDetail.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Rith\\Desktop\\Book_Store_System\\book_store_system_gui\\UI\\ItemDetail.cs",
+              "RelativeDocumentMoniker": "UI\\ItemDetail.cs",
+              "ToolTip": "C:\\Users\\Rith\\Desktop\\Book_Store_System\\book_store_system_gui\\UI\\ItemDetail.cs [Design]",
+              "RelativeToolTip": "UI\\ItemDetail.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T15:47:46.071Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AddUser.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Rith\\Desktop\\Book_Store_System\\book_store_system_gui\\UI\\AddUser.cs",
+              "RelativeDocumentMoniker": "UI\\AddUser.cs",
+              "ToolTip": "C:\\Users\\Rith\\Desktop\\Book_Store_System\\book_store_system_gui\\UI\\AddUser.cs [Design]",
+              "RelativeToolTip": "UI\\AddUser.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T15:46:21.54Z",
               "EditorCaption": " [Design]"
             }
           ]

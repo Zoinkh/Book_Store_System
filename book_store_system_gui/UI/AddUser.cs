@@ -8,21 +8,16 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace book_store_system_gui
+namespace book_store_system_gui.UI
 {
-    public partial class AdimMenu : Form
+    public partial class AddUser : Form
     {
-        public AdimMenu()
+        public AddUser()
         {
             InitializeComponent();
         }
 
-        private void listView1_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button1_Click(object sender, EventArgs e)
+        private void label1_Click(object sender, EventArgs e)
         {
 
         }

@@ -8,6 +8,7 @@ namespace book_store_system_gui.Library
 {
     internal class Admin : Account
     {
-        public Admin() { }
+        Account account = new Account();
+
     }
 }

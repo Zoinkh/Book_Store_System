@@ -1,6 +1,6 @@
 ﻿namespace book_store_system_gui
 {
-    partial class AdimMenu
+    partial class AdimHome
     {
         /// <summary>
         /// Required designer variable.
@@ -11,14 +11,7 @@
         /// Clean up any resources being used.
         /// </summary>
         /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
-        protected override void Dispose(bool disposing)
-        {
-            if (disposing && (components != null))
-            {
-                components.Dispose();
-            }
-            base.Dispose(disposing);
-        }
+       
 
         #region Windows Form Designer generated code
 
@@ -36,7 +29,7 @@
             button4 = new Button();
             button5 = new Button();
             button6 = new Button();
-            SuspendLayout();
+
             // 
             // label1
             // 
@@ -55,7 +48,7 @@
             listView1.Size = new Size(904, 481);
             listView1.TabIndex = 1;
             listView1.UseCompatibleStateImageBehavior = false;
-            listView1.SelectedIndexChanged += listView1_SelectedIndexChanged;
+        
             // 
             // button1
             // 
@@ -66,7 +59,7 @@
             button1.TabIndex = 2;
             button1.Text = "Account";
             button1.UseVisualStyleBackColor = true;
-            button1.Click += button1_Click;
+
             // 
             // button2
             // 
@@ -120,22 +113,7 @@
             // 
             // AdimMenu
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
-            AutoScaleMode = AutoScaleMode.Font;
-            BackColor = Color.LightSkyBlue;
-            ClientSize = new Size(1140, 592);
-            Controls.Add(button6);
-            Controls.Add(button5);
-            Controls.Add(button4);
-            Controls.Add(button3);
-            Controls.Add(button2);
-            Controls.Add(button1);
-            Controls.Add(listView1);
-            Controls.Add(label1);
-            Name = "AdimMenu";
-            Text = "Admin Form";
-            ResumeLayout(false);
-            PerformLayout();
+           
         }
 
         #endregion

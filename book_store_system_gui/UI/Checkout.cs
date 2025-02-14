@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace book_store_system_gui
+namespace book_store_system_gui.Library
 {
-    public partial class UserForm : Form
+    public partial class Checkout : Form
     {
-        public UserForm()
+        public Checkout()
         {
             InitializeComponent();
         }
