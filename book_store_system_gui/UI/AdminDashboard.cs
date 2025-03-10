@@ -1,4 +1,5 @@
-﻿using System;
+﻿using book_store_system_gui.UI;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -34,9 +35,6 @@ namespace book_store_system_gui
             button3 = new Button();
             button4 = new Button();
             button5 = new Button();
-            button6 = new Button();
-            button7 = new Button();
-            button8 = new Button();
             pictureBox1 = new PictureBox();
             label1 = new Label();
             listView1 = new ListView();
@@ -56,6 +54,7 @@ namespace book_store_system_gui
             button1.TabIndex = 0;
             button1.Text = "Add Item";
             button1.UseVisualStyleBackColor = false;
+            button1.Click += button1_Click_1;
             // 
             // button2
             // 
@@ -67,6 +66,7 @@ namespace book_store_system_gui
             button2.TabIndex = 1;
             button2.Text = "Delete Item";
             button2.UseVisualStyleBackColor = false;
+            button2.Click += button2_Click;
             // 
             // button3
             // 
@@ -75,8 +75,9 @@ namespace book_store_system_gui
             button3.Name = "button3";
             button3.Size = new Size(132, 40);
             button3.TabIndex = 2;
-            button3.Text = "button3";
+            button3.Text = "Item Stock";
             button3.UseVisualStyleBackColor = true;
+            button3.Click += button3_Click;
             // 
             // button4
             // 
@@ -85,8 +86,9 @@ namespace book_store_system_gui
             button4.Name = "button4";
             button4.Size = new Size(132, 40);
             button4.TabIndex = 3;
-            button4.Text = "button4";
+            button4.Text = "Order";
             button4.UseVisualStyleBackColor = true;
+            button4.Click += button4_Click;
             // 
             // button5
             // 
@@ -95,38 +97,9 @@ namespace book_store_system_gui
             button5.Name = "button5";
             button5.Size = new Size(132, 40);
             button5.TabIndex = 4;
-            button5.Text = "button5";
+            button5.Text = "Account";
             button5.UseVisualStyleBackColor = true;
-            // 
-            // button6
-            // 
-            button6.Font = new Font("Cambria", 14.25F, FontStyle.Bold);
-            button6.Location = new Point(810, 313);
-            button6.Name = "button6";
-            button6.Size = new Size(132, 40);
-            button6.TabIndex = 5;
-            button6.Text = "button6";
-            button6.UseVisualStyleBackColor = true;
-            // 
-            // button7
-            // 
-            button7.Font = new Font("Cambria", 14.25F, FontStyle.Bold);
-            button7.Location = new Point(810, 359);
-            button7.Name = "button7";
-            button7.Size = new Size(132, 40);
-            button7.TabIndex = 6;
-            button7.Text = "button7";
-            button7.UseVisualStyleBackColor = true;
-            // 
-            // button8
-            // 
-            button8.Font = new Font("Cambria", 14.25F, FontStyle.Bold);
-            button8.Location = new Point(810, 405);
-            button8.Name = "button8";
-            button8.Size = new Size(132, 40);
-            button8.TabIndex = 7;
-            button8.Text = "button8";
-            button8.UseVisualStyleBackColor = true;
+            button5.Click += button5_Click;
             // 
             // pictureBox1
             // 
@@ -166,17 +139,18 @@ namespace book_store_system_gui
             // 
             // textBox1
             // 
-            textBox1.Font = new Font("Cambria", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            textBox1.Location = new Point(690, 35);
+            textBox1.Font = new Font("Cambria", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            textBox1.Location = new Point(678, 33);
             textBox1.Name = "textBox1";
-            textBox1.Size = new Size(182, 26);
+            textBox1.Size = new Size(182, 30);
             textBox1.TabIndex = 12;
             // 
             // button9
             // 
-            button9.Location = new Point(878, 35);
+            button9.Font = new Font("Cambria", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            button9.Location = new Point(866, 33);
             button9.Name = "button9";
-            button9.Size = new Size(64, 28);
+            button9.Size = new Size(76, 30);
             button9.TabIndex = 13;
             button9.Text = "Search";
             button9.UseVisualStyleBackColor = true;
@@ -191,9 +165,6 @@ namespace book_store_system_gui
             Controls.Add(listView1);
             Controls.Add(label1);
             Controls.Add(pictureBox1);
-            Controls.Add(button8);
-            Controls.Add(button7);
-            Controls.Add(button6);
             Controls.Add(button5);
             Controls.Add(button4);
             Controls.Add(button3);
@@ -211,14 +182,40 @@ namespace book_store_system_gui
         private Button button3;
         private Button button4;
         private Button button5;
-        private Button button6;
-        private Button button7;
-        private Button button8;
         private PictureBox pictureBox1;
         private Label label1;
         private ListView listView1;
         private Label label2;
         private TextBox textBox1;
         private Button button9;
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            AddItem newForm = new AddItem();
+            newForm.Show();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            // write a delete qurry
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            Ordered newForm = new Ordered();
+            newForm.Show();
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            AccountList newForm = new AccountList();
+            newForm.Show();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            ItemInStock newForm = new ItemInStock();
+            newForm.Show();
+        }
     }
 }

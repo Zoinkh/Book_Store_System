@@ -34,6 +34,7 @@
             textBox1 = new TextBox();
             pictureBox1 = new PictureBox();
             pictureBox2 = new PictureBox();
+            label2 = new Label();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             SuspendLayout();
@@ -60,7 +61,7 @@
             // button1
             // 
             button1.Font = new Font("Cambria", 9.75F, FontStyle.Bold);
-            button1.Location = new Point(982, 39);
+            button1.Location = new Point(880, 41);
             button1.Name = "button1";
             button1.Size = new Size(64, 23);
             button1.TabIndex = 2;
@@ -70,7 +71,7 @@
             // textBox1
             // 
             textBox1.Font = new Font("Cambria", 9.75F, FontStyle.Bold);
-            textBox1.Location = new Point(836, 39);
+            textBox1.Location = new Point(734, 41);
             textBox1.Name = "textBox1";
             textBox1.Size = new Size(140, 23);
             textBox1.TabIndex = 3;
@@ -85,11 +86,21 @@
             // 
             // pictureBox2
             // 
-            pictureBox2.Location = new Point(70, 20);
+            pictureBox2.Location = new Point(984, 20);
             pictureBox2.Name = "pictureBox2";
             pictureBox2.Size = new Size(45, 45);
             pictureBox2.TabIndex = 6;
             pictureBox2.TabStop = false;
+            // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Font = new Font("Cambria", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label2.Location = new Point(70, 39);
+            label2.Name = "label2";
+            label2.Size = new Size(119, 22);
+            label2.TabIndex = 7;
+            label2.Text = "Hello, Name.";
             // 
             // UserHome
             // 
@@ -97,6 +108,7 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.LightSkyBlue;
             ClientSize = new Size(1059, 618);
+            Controls.Add(label2);
             Controls.Add(pictureBox2);
             Controls.Add(pictureBox1);
             Controls.Add(textBox1);
@@ -119,5 +131,6 @@
         private TextBox textBox1;
         private PictureBox pictureBox1;
         private PictureBox pictureBox2;
+        private Label label2;
     }
 }

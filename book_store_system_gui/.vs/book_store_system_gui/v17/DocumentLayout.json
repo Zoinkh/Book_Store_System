@@ -1,30 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Rith\\Desktop\\Book_Store_System\\book_store_system_gui\\",
+  "WorkspaceRootPath": "C:\\Users\\Rith\\Desktop\\Code_Archive\\Csharp\\S1_Project\\Book_Store_System\\book_store_system_gui\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{24027F13-5085-4825-B69E-8B56DC8F24A1}|book_store_system_gui.csproj|c:\\users\\rith\\desktop\\book_store_system\\book_store_system_gui\\ui\\additem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{24027F13-5085-4825-B69E-8B56DC8F24A1}|book_store_system_gui.csproj|c:\\users\\rith\\desktop\\code_archive\\csharp\\s1_project\\book_store_system\\book_store_system_gui\\ui\\admindashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24027F13-5085-4825-B69E-8B56DC8F24A1}|book_store_system_gui.csproj|solutionrelative:ui\\admindashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24027F13-5085-4825-B69E-8B56DC8F24A1}|book_store_system_gui.csproj|c:\\users\\rith\\desktop\\code_archive\\csharp\\s1_project\\book_store_system\\book_store_system_gui\\ui\\admindashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{24027F13-5085-4825-B69E-8B56DC8F24A1}|book_store_system_gui.csproj|solutionrelative:ui\\admindashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24027F13-5085-4825-B69E-8B56DC8F24A1}|book_store_system_gui.csproj|c:\\users\\rith\\desktop\\code_archive\\csharp\\s1_project\\book_store_system\\book_store_system_gui\\library\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24027F13-5085-4825-B69E-8B56DC8F24A1}|book_store_system_gui.csproj|solutionrelative:library\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24027F13-5085-4825-B69E-8B56DC8F24A1}|book_store_system_gui.csproj|C:\\Users\\Rith\\Desktop\\Code_Archive\\Csharp\\S1_Project\\Book_Store_System\\book_store_system_gui\\ui\\additem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{24027F13-5085-4825-B69E-8B56DC8F24A1}|book_store_system_gui.csproj|solutionrelative:ui\\additem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{24027F13-5085-4825-B69E-8B56DC8F24A1}|book_store_system_gui.csproj|c:\\users\\rith\\desktop\\book_store_system\\book_store_system_gui\\ui\\adduser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{24027F13-5085-4825-B69E-8B56DC8F24A1}|book_store_system_gui.csproj|solutionrelative:ui\\adduser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{24027F13-5085-4825-B69E-8B56DC8F24A1}|book_store_system_gui.csproj|c:\\users\\rith\\desktop\\book_store_system\\book_store_system_gui\\ui\\checkout.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{24027F13-5085-4825-B69E-8B56DC8F24A1}|book_store_system_gui.csproj|solutionrelative:ui\\checkout.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{24027F13-5085-4825-B69E-8B56DC8F24A1}|book_store_system_gui.csproj|c:\\users\\rith\\desktop\\book_store_system\\book_store_system_gui\\ui\\updateuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{24027F13-5085-4825-B69E-8B56DC8F24A1}|book_store_system_gui.csproj|solutionrelative:ui\\updateuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{24027F13-5085-4825-B69E-8B56DC8F24A1}|book_store_system_gui.csproj|c:\\users\\rith\\desktop\\book_store_system\\book_store_system_gui\\ui\\signinform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{24027F13-5085-4825-B69E-8B56DC8F24A1}|book_store_system_gui.csproj|solutionrelative:ui\\signinform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{24027F13-5085-4825-B69E-8B56DC8F24A1}|book_store_system_gui.csproj|c:\\users\\rith\\desktop\\book_store_system\\book_store_system_gui\\ui\\itemdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{24027F13-5085-4825-B69E-8B56DC8F24A1}|book_store_system_gui.csproj|solutionrelative:ui\\itemdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -46,74 +38,52 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "UpdateUser.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Rith\\Desktop\\Book_Store_System\\book_store_system_gui\\UI\\UpdateUser.cs",
-              "RelativeDocumentMoniker": "UI\\UpdateUser.cs",
-              "ToolTip": "C:\\Users\\Rith\\Desktop\\Book_Store_System\\book_store_system_gui\\UI\\UpdateUser.cs [Design]",
-              "RelativeToolTip": "UI\\UpdateUser.cs [Design]",
+              "DocumentIndex": 0,
+              "Title": "AdminDashboard.cs",
+              "DocumentMoniker": "C:\\Users\\Rith\\Desktop\\Code_Archive\\Csharp\\S1_Project\\Book_Store_System\\book_store_system_gui\\UI\\AdminDashboard.cs",
+              "RelativeDocumentMoniker": "UI\\AdminDashboard.cs",
+              "ToolTip": "C:\\Users\\Rith\\Desktop\\Code_Archive\\Csharp\\S1_Project\\Book_Store_System\\book_store_system_gui\\UI\\AdminDashboard.cs",
+              "RelativeToolTip": "UI\\AdminDashboard.cs",
+              "ViewState": "AgIAAFIAAAAAAAAAAAAcwNoAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-14T15:47:50.323Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-03-10T07:59:11.02Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "SigninForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Rith\\Desktop\\Book_Store_System\\book_store_system_gui\\UI\\SigninForm.cs",
-              "RelativeDocumentMoniker": "UI\\SigninForm.cs",
-              "ToolTip": "C:\\Users\\Rith\\Desktop\\Book_Store_System\\book_store_system_gui\\UI\\SigninForm.cs [Design]",
-              "RelativeToolTip": "UI\\SigninForm.cs [Design]",
+              "DocumentIndex": 1,
+              "Title": "AdminDashboard.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Rith\\Desktop\\Code_Archive\\Csharp\\S1_Project\\Book_Store_System\\book_store_system_gui\\UI\\AdminDashboard.cs",
+              "RelativeDocumentMoniker": "UI\\AdminDashboard.cs",
+              "ToolTip": "C:\\Users\\Rith\\Desktop\\Code_Archive\\Csharp\\S1_Project\\Book_Store_System\\book_store_system_gui\\UI\\AdminDashboard.cs [Design]",
+              "RelativeToolTip": "UI\\AdminDashboard.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-14T15:47:47.413Z",
+              "WhenOpened": "2025-03-10T07:41:03.58Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Checkout.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Rith\\Desktop\\Book_Store_System\\book_store_system_gui\\UI\\Checkout.cs",
-              "RelativeDocumentMoniker": "UI\\Checkout.cs",
-              "ToolTip": "C:\\Users\\Rith\\Desktop\\Book_Store_System\\book_store_system_gui\\UI\\Checkout.cs [Design]",
-              "RelativeToolTip": "UI\\Checkout.cs [Design]",
+              "Title": "Book.cs",
+              "DocumentMoniker": "C:\\Users\\Rith\\Desktop\\Code_Archive\\Csharp\\S1_Project\\Book_Store_System\\book_store_system_gui\\Library\\Book.cs",
+              "RelativeDocumentMoniker": "Library\\Book.cs",
+              "ToolTip": "C:\\Users\\Rith\\Desktop\\Code_Archive\\Csharp\\S1_Project\\Book_Store_System\\book_store_system_gui\\Library\\Book.cs",
+              "RelativeToolTip": "Library\\Book.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-14T15:47:44.733Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-02-25T06:39:52.508Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "AddItem.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Rith\\Desktop\\Book_Store_System\\book_store_system_gui\\UI\\AddItem.cs",
+              "DocumentMoniker": "C:\\Users\\Rith\\Desktop\\Code_Archive\\Csharp\\S1_Project\\Book_Store_System\\book_store_system_gui\\UI\\AddItem.cs",
               "RelativeDocumentMoniker": "UI\\AddItem.cs",
-              "ToolTip": "C:\\Users\\Rith\\Desktop\\Book_Store_System\\book_store_system_gui\\UI\\AddItem.cs [Design]",
+              "ToolTip": "C:\\Users\\Rith\\Desktop\\Code_Archive\\Csharp\\S1_Project\\Book_Store_System\\book_store_system_gui\\UI\\AddItem.cs [Design]",
               "RelativeToolTip": "UI\\AddItem.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-14T15:46:19.649Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ItemDetail.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Rith\\Desktop\\Book_Store_System\\book_store_system_gui\\UI\\ItemDetail.cs",
-              "RelativeDocumentMoniker": "UI\\ItemDetail.cs",
-              "ToolTip": "C:\\Users\\Rith\\Desktop\\Book_Store_System\\book_store_system_gui\\UI\\ItemDetail.cs [Design]",
-              "RelativeToolTip": "UI\\ItemDetail.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-14T15:47:46.071Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AddUser.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Rith\\Desktop\\Book_Store_System\\book_store_system_gui\\UI\\AddUser.cs",
-              "RelativeDocumentMoniker": "UI\\AddUser.cs",
-              "ToolTip": "C:\\Users\\Rith\\Desktop\\Book_Store_System\\book_store_system_gui\\UI\\AddUser.cs [Design]",
-              "RelativeToolTip": "UI\\AddUser.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-14T15:46:21.54Z",
+              "WhenOpened": "2025-02-25T06:21:07.71Z",
               "EditorCaption": " [Design]"
             }
           ]

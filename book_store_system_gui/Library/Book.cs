@@ -8,7 +8,7 @@ namespace book_store_system_gui.Library
 {
     internal class Book
     {
-        private static string autor, title, publisher ;
+        private static string seriesNo, author, title, publisher ;
         private static DateTime publicDate;
         
 

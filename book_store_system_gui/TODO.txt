@@ -1,4 +1,5 @@
-﻿tb font:camebria size:14
+﻿+Standard
+	-tb font:camebria size:14
 
 
 
@@ -6,4 +7,11 @@
 +UI
 	-addForm
 	-addToCart
-	-
+	-report
+	-receit
+
+
+
++Idea
+	-maby just do tabbing and not a hold different form
+	-log; when log .make logs file named by date

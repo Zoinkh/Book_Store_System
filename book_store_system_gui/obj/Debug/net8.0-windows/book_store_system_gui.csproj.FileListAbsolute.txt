@@ -1,0 +1,17 @@
+C:\Users\Rith\Desktop\Code_Archive\Csharp\S1_Project\Book_Store_System\book_store_system_gui\obj\Debug\net8.0-windows\book_store_system_gui.Properties.Resources.resources
+C:\Users\Rith\Desktop\Code_Archive\Csharp\S1_Project\Book_Store_System\book_store_system_gui\obj\Debug\net8.0-windows\book_store_system_gui.UI.AddItem.resources
+C:\Users\Rith\Desktop\Code_Archive\Csharp\S1_Project\Book_Store_System\book_store_system_gui\obj\Debug\net8.0-windows\book_store_system_gui.UI.AddUser.resources
+C:\Users\Rith\Desktop\Code_Archive\Csharp\S1_Project\Book_Store_System\book_store_system_gui\obj\Debug\net8.0-windows\book_store_system_gui.AdimMenu.resources
+C:\Users\Rith\Desktop\Code_Archive\Csharp\S1_Project\Book_Store_System\book_store_system_gui\obj\Debug\net8.0-windows\book_store_system_gui.Library.Checkout.resources
+C:\Users\Rith\Desktop\Code_Archive\Csharp\S1_Project\Book_Store_System\book_store_system_gui\obj\Debug\net8.0-windows\book_store_system_gui.UI.ItemDetail.resources
+C:\Users\Rith\Desktop\Code_Archive\Csharp\S1_Project\Book_Store_System\book_store_system_gui\obj\Debug\net8.0-windows\book_store_system_gui.UI.Ordered.resources
+C:\Users\Rith\Desktop\Code_Archive\Csharp\S1_Project\Book_Store_System\book_store_system_gui\obj\Debug\net8.0-windows\book_store_system_gui.SigninForm.resources
+C:\Users\Rith\Desktop\Code_Archive\Csharp\S1_Project\Book_Store_System\book_store_system_gui\obj\Debug\net8.0-windows\book_store_system_gui.UI.UpdateItem.resources
+C:\Users\Rith\Desktop\Code_Archive\Csharp\S1_Project\Book_Store_System\book_store_system_gui\obj\Debug\net8.0-windows\book_store_system_gui.UI.UpdateUser.resources
+C:\Users\Rith\Desktop\Code_Archive\Csharp\S1_Project\Book_Store_System\book_store_system_gui\obj\Debug\net8.0-windows\book_store_system_gui.UserHome.resources
+C:\Users\Rith\Desktop\Code_Archive\Csharp\S1_Project\Book_Store_System\book_store_system_gui\obj\Debug\net8.0-windows\book_store_system_gui.csproj.GenerateResource.cache
+C:\Users\Rith\Desktop\Code_Archive\Csharp\S1_Project\Book_Store_System\book_store_system_gui\obj\Debug\net8.0-windows\book_store_system_gui.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Rith\Desktop\Code_Archive\Csharp\S1_Project\Book_Store_System\book_store_system_gui\obj\Debug\net8.0-windows\book_store_system_gui.AssemblyInfoInputs.cache
+C:\Users\Rith\Desktop\Code_Archive\Csharp\S1_Project\Book_Store_System\book_store_system_gui\obj\Debug\net8.0-windows\book_store_system_gui.AssemblyInfo.cs
+C:\Users\Rith\Desktop\Code_Archive\Csharp\S1_Project\Book_Store_System\book_store_system_gui\obj\Debug\net8.0-windows\book_store_system_gui.csproj.CoreCompileInputs.cache
+C:\Users\Rith\Desktop\Code_Archive\Csharp\S1_Project\Book_Store_System\book_store_system_gui\obj\Debug\net8.0-windows\book_store_system_gui.sourcelink.json
