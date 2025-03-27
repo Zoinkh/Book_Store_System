@@ -1,6 +1,6 @@
 ﻿namespace book_store_system_gui.UI
 {
-    partial class AccountList
+    partial class SplashScreen
     {
         /// <summary>
         /// Required designer variable.
@@ -29,38 +29,28 @@
         private void InitializeComponent()
         {
             label1 = new Label();
-            listBox1 = new ListBox();
             SuspendLayout();
             // 
             // label1
             // 
             label1.AutoSize = true;
-            label1.Font = new Font("Cambria", 27.75F, FontStyle.Bold);
-            label1.Location = new Point(281, 9);
+            label1.Font = new Font("Cambria", 39.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label1.Location = new Point(169, 155);
             label1.Name = "label1";
-            label1.Size = new Size(227, 43);
+            label1.Size = new Size(473, 62);
             label1.TabIndex = 0;
-            label1.Text = "Account List";
+            label1.Text = "Book Store System";
+            label1.Click += label1_Click;
             // 
-            // listBox1
-            // 
-            listBox1.FormattingEnabled = true;
-            listBox1.ItemHeight = 15;
-            listBox1.Location = new Point(12, 59);
-            listBox1.Name = "listBox1";
-            listBox1.Size = new Size(776, 544);
-            listBox1.TabIndex = 1;
-            // 
-            // AccountList
+            // SplashScreen
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.LightSkyBlue;
-            ClientSize = new Size(800, 594);
-            Controls.Add(listBox1);
+            ClientSize = new Size(798, 491);
             Controls.Add(label1);
-            Name = "AccountList";
-            Text = "AccountList";
+            Name = "SplashScreen";
+            Text = "SplashScreen";
             ResumeLayout(false);
             PerformLayout();
         }
@@ -68,6 +58,5 @@
         #endregion
 
         private Label label1;
-        private ListBox listBox1;
     }
 }

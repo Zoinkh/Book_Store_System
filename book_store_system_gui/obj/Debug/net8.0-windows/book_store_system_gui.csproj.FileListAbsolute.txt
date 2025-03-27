@@ -15,3 +15,6 @@ C:\Users\Rith\Desktop\Code_Archive\Csharp\S1_Project\Book_Store_System\book_stor
 C:\Users\Rith\Desktop\Code_Archive\Csharp\S1_Project\Book_Store_System\book_store_system_gui\obj\Debug\net8.0-windows\book_store_system_gui.AssemblyInfo.cs
 C:\Users\Rith\Desktop\Code_Archive\Csharp\S1_Project\Book_Store_System\book_store_system_gui\obj\Debug\net8.0-windows\book_store_system_gui.csproj.CoreCompileInputs.cache
 C:\Users\Rith\Desktop\Code_Archive\Csharp\S1_Project\Book_Store_System\book_store_system_gui\obj\Debug\net8.0-windows\book_store_system_gui.sourcelink.json
+C:\Users\Rith\Desktop\Code_Archive\Csharp\S1_Project\Book_Store_System\book_store_system_gui\obj\Debug\net8.0-windows\book_store_system_gui.UI.AccountList.resources
+C:\Users\Rith\Desktop\Code_Archive\Csharp\S1_Project\Book_Store_System\book_store_system_gui\obj\Debug\net8.0-windows\book_store_system_gui.UI.ItemInStock.resources
+C:\Users\Rith\Desktop\Code_Archive\Csharp\S1_Project\Book_Store_System\book_store_system_gui\obj\Debug\net8.0-windows\book_store_system_gui.UI.SplashScreen.resources

@@ -70,35 +70,38 @@ namespace book_store_system_gui
             // 
             // button3
             // 
+            button3.BackColor = Color.Violet;
             button3.Font = new Font("Cambria", 14.25F, FontStyle.Bold);
             button3.Location = new Point(810, 175);
             button3.Name = "button3";
             button3.Size = new Size(132, 40);
             button3.TabIndex = 2;
             button3.Text = "Item Stock";
-            button3.UseVisualStyleBackColor = true;
+            button3.UseVisualStyleBackColor = false;
             button3.Click += button3_Click;
             // 
             // button4
             // 
+            button4.BackColor = Color.Fuchsia;
             button4.Font = new Font("Cambria", 14.25F, FontStyle.Bold);
             button4.Location = new Point(810, 221);
             button4.Name = "button4";
             button4.Size = new Size(132, 40);
             button4.TabIndex = 3;
             button4.Text = "Order";
-            button4.UseVisualStyleBackColor = true;
+            button4.UseVisualStyleBackColor = false;
             button4.Click += button4_Click;
             // 
             // button5
             // 
+            button5.BackColor = Color.Pink;
             button5.Font = new Font("Cambria", 14.25F, FontStyle.Bold);
             button5.Location = new Point(810, 267);
             button5.Name = "button5";
             button5.Size = new Size(132, 40);
             button5.TabIndex = 4;
             button5.Text = "Account";
-            button5.UseVisualStyleBackColor = true;
+            button5.UseVisualStyleBackColor = false;
             button5.Click += button5_Click;
             // 
             // pictureBox1

@@ -9,9 +9,12 @@
 	-addToCart
 	-report
 	-receit
+	-
 
 
 
 +Idea
 	-maby just do tabbing and not a hold different form
 	-log; when log .make logs file named by date
+	-setting is save local with json and load upon run
+	-use tabs ui

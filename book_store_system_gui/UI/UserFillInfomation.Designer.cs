@@ -1,6 +1,6 @@
 ﻿namespace book_store_system_gui.UI
 {
-    partial class ItemInStock
+    partial class UserFillInfomation
     {
         /// <summary>
         /// Required designer variable.
@@ -28,17 +28,10 @@
         /// </summary>
         private void InitializeComponent()
         {
-            SuspendLayout();
-            // 
-            // ItemInStock
-            // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
-            AutoScaleMode = AutoScaleMode.Font;
-            BackColor = Color.LightSkyBlue;
-            ClientSize = new Size(1000, 599);
-            Name = "ItemInStock";
-            Text = "ItemInStock";
-            ResumeLayout(false);
+            this.components = new System.ComponentModel.Container();
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Text = "ProvideUserInfomation";
         }
 
         #endregion
