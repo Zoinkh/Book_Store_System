@@ -1,4 +1,6 @@
-﻿using System;
+﻿using book_store_system_gui.Library;
+using book_store_system_gui.UI;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -29,6 +31,20 @@ namespace book_store_system_gui
 
         private void checkedListBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
+
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            UpdateUser updateUser = new UpdateUser();
+            updateUser.ShowDialog();
+
+        }
+
+        private void Checkout_Click(object sender, EventArgs e)
+        {
+            Checkout checkout = new Checkout();
+            checkout.ShowDialog();
 
         }
     }

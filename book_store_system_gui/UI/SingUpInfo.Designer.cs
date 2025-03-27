@@ -65,6 +65,7 @@
             button2.TabIndex = 42;
             button2.Text = "Cancle";
             button2.UseVisualStyleBackColor = false;
+            button2.Click += button2_Click;
             // 
             // button1
             // 
@@ -76,6 +77,7 @@
             button1.TabIndex = 41;
             button1.Text = "SIng Up";
             button1.UseVisualStyleBackColor = false;
+            button1.Click += button1_Click;
             // 
             // label8
             // 
@@ -196,7 +198,7 @@
             label1.Text = "Sing Up";
             label1.Click += label1_Click_1;
             // 
-            // Singup
+            // SingUpInfo
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
@@ -218,8 +220,9 @@
             Controls.Add(label3);
             Controls.Add(textBox2);
             Controls.Add(label1);
-            Name = "Singup";
+            Name = "SingUpInfo";
             Text = "SingUp Form";
+            Load += SingUpInfo_Load;
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
             PerformLayout();

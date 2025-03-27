@@ -20,7 +20,7 @@ namespace book_store_system_gui.Library
         {
             string result;
             //take mutile qurry and show what match.
-            return result;
+            return "";
         }
     
     }

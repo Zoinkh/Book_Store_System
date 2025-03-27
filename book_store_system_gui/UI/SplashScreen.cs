@@ -21,5 +21,13 @@ namespace book_store_system_gui.UI
         {
 
         }
+
+        private async void SplashScreen_Load(object sender, EventArgs e)
+        {
+            await Task.Delay(3000);
+            SigninForm singin = new SigninForm();
+            singin.Show();
+            this.Hide();
+        }
     }
 }

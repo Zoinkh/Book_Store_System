@@ -1,3 +1,8 @@
+using book_store_system_gui.UI;
+using System.Threading.Tasks;
+using System.Threading;
+using book_store_system_gui.Library;
+
 namespace book_store_system_gui
 {
     public partial class SigninForm : Form
@@ -5,15 +10,6 @@ namespace book_store_system_gui
         public SigninForm()
         {
             InitializeComponent();
-            if (rbtn_KeepMeIn.Checked)
-            {
-                //check previour login account in db, and past to txb
-            }
-            else
-            {
-                txb_Account.Clear();
-                txb_Password.Clear();
-            }
         }
 
         private void label2_Click(object sender, EventArgs e)
@@ -26,10 +22,6 @@ namespace book_store_system_gui
 
         }
 
-        private void button1_Click(object sender, EventArgs e)
-        {
-            this.FormClosed = true;
-        }
 
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
@@ -38,7 +30,29 @@ namespace book_store_system_gui
 
         private void btn_Exit_Click(object sender, EventArgs e)
         {
+            this.Close();
+        }
 
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            SingUpInfo singup = new SingUpInfo();
+            singup.ShowDialog();
+
+        }
+
+        private void bnt_LogIn_Click(object sender, EventArgs e)
+        {
+            UserHome dashboard = new UserHome();
+            dashboard.Show();
+            this.Hide();
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            AdimMenu admin = new AdimMenu();
+            admin.Show();
+            this.Hide();
         }
     }
 }

@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(UserHome));
             label1 = new Label();
             button1 = new Button();
             textBox1 = new TextBox();
@@ -52,7 +53,7 @@
             // button1
             // 
             button1.Font = new Font("Cambria", 12F, FontStyle.Bold);
-            button1.Location = new Point(895, 39);
+            button1.Location = new Point(882, 39);
             button1.Name = "button1";
             button1.Size = new Size(71, 32);
             button1.TabIndex = 2;
@@ -63,32 +64,38 @@
             // textBox1
             // 
             textBox1.Font = new Font("Cambria", 12F, FontStyle.Bold);
-            textBox1.Location = new Point(697, 43);
+            textBox1.Location = new Point(684, 43);
             textBox1.Name = "textBox1";
             textBox1.Size = new Size(192, 26);
             textBox1.TabIndex = 3;
             // 
             // pictureBox1
             // 
+            pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
             pictureBox1.Location = new Point(14, 20);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(50, 45);
+            pictureBox1.Size = new Size(64, 60);
+            pictureBox1.SizeMode = PictureBoxSizeMode.CenterImage;
             pictureBox1.TabIndex = 5;
             pictureBox1.TabStop = false;
+            pictureBox1.Click += pictureBox1_Click;
             // 
             // Checkout
             // 
-            Checkout.Location = new Point(984, 20);
+            Checkout.Image = Properties.Resources._default;
+            Checkout.Location = new Point(972, 22);
             Checkout.Name = "Checkout";
-            Checkout.Size = new Size(45, 45);
+            Checkout.Size = new Size(57, 58);
+            Checkout.SizeMode = PictureBoxSizeMode.CenterImage;
             Checkout.TabIndex = 6;
             Checkout.TabStop = false;
+            Checkout.Click += Checkout_Click;
             // 
             // label2
             // 
             label2.AutoSize = true;
             label2.Font = new Font("Cambria", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label2.Location = new Point(70, 39);
+            label2.Location = new Point(84, 39);
             label2.Name = "label2";
             label2.Size = new Size(119, 22);
             label2.TabIndex = 7;

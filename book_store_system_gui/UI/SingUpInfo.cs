@@ -26,5 +26,21 @@ namespace book_store_system_gui.UI
         {
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            SingUp singup = new SingUp();
+            singup.ShowDialog();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void SingUpInfo_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

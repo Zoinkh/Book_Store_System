@@ -120,6 +120,7 @@
             button4.TabIndex = 7;
             button4.Text = "Back";
             button4.UseVisualStyleBackColor = false;
+            button4.Click += button4_Click;
             // 
             // Checkout
             // 
@@ -137,6 +138,7 @@
             Controls.Add(label1);
             Name = "Checkout";
             Text = "Checkout";
+            Load += Checkout_Load;
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
             PerformLayout();

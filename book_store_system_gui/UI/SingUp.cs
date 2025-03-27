@@ -21,5 +21,15 @@ namespace book_store_system_gui.UI
         {
 
         }
+
+        private void bnt_LogIn_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void btn_Exit_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

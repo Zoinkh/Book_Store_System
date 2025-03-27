@@ -50,6 +50,7 @@
             btn_Exit.TabIndex = 16;
             btn_Exit.Text = "Exit";
             btn_Exit.UseVisualStyleBackColor = false;
+            btn_Exit.Click += btn_Exit_Click;
             // 
             // bnt_LogIn
             // 
@@ -61,6 +62,7 @@
             bnt_LogIn.TabIndex = 15;
             bnt_LogIn.Text = "Sing Up";
             bnt_LogIn.UseVisualStyleBackColor = false;
+            bnt_LogIn.Click += bnt_LogIn_Click;
             // 
             // txb_Password
             // 

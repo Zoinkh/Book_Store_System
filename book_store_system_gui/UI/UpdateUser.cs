@@ -16,5 +16,21 @@ namespace book_store_system_gui.UI
         {
             InitializeComponent();
         }
+
+        private void UpdateUser_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            UserHome home = new UserHome();
+            home.Show();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

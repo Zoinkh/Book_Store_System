@@ -30,6 +30,7 @@
         {
             label1 = new Label();
             listBox1 = new ListBox();
+            button1 = new Button();
             SuspendLayout();
             // 
             // label1
@@ -51,12 +52,23 @@
             listBox1.Size = new Size(776, 544);
             listBox1.TabIndex = 1;
             // 
+            // button1
+            // 
+            button1.BackColor = Color.LightCoral;
+            button1.Location = new Point(12, 13);
+            button1.Name = "button1";
+            button1.Size = new Size(86, 40);
+            button1.TabIndex = 2;
+            button1.Text = "Back";
+            button1.UseVisualStyleBackColor = false;
+            // 
             // AccountList
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.LightSkyBlue;
             ClientSize = new Size(800, 594);
+            Controls.Add(button1);
             Controls.Add(listBox1);
             Controls.Add(label1);
             Name = "AccountList";
@@ -69,5 +81,6 @@
 
         private Label label1;
         private ListBox listBox1;
+        private Button button1;
     }
 }

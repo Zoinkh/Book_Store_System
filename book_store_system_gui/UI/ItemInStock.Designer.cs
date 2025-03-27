@@ -54,7 +54,7 @@
             label1.Size = new Size(202, 32);
             label1.TabIndex = 1;
             label1.Text = "Current Order :";
-            label1.Click += this.label1_Click;
+
             // 
             // label2
             // 

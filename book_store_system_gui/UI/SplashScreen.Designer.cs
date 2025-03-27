@@ -35,11 +35,11 @@
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Cambria", 39.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label1.Location = new Point(171, 142);
+            label1.Location = new Point(112, 139);
             label1.Name = "label1";
-            label1.Size = new Size(473, 62);
+            label1.Size = new Size(587, 62);
             label1.TabIndex = 0;
-            label1.Text = "Book Store System";
+            label1.Text = "Book Store System v0.1";
             label1.Click += label1_Click;
             // 
             // SplashScreen
@@ -51,6 +51,7 @@
             Controls.Add(label1);
             Name = "SplashScreen";
             Text = "SplashScreen";
+            Load += SplashScreen_Load;
             ResumeLayout(false);
             PerformLayout();
         }

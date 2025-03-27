@@ -30,6 +30,7 @@ namespace book_store_system_gui
 
         private void InitializeComponent()
         {
+            ComponentResourceManager resources = new ComponentResourceManager(typeof(AdimMenu));
             button1 = new Button();
             button2 = new Button();
             button3 = new Button();
@@ -106,11 +107,14 @@ namespace book_store_system_gui
             // 
             // pictureBox1
             // 
-            pictureBox1.Location = new Point(12, 12);
+            pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
+            pictureBox1.Location = new Point(12, 22);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(55, 55);
+            pictureBox1.SizeMode = PictureBoxSizeMode.CenterImage;
             pictureBox1.TabIndex = 8;
             pictureBox1.TabStop = false;
+            pictureBox1.Click += pictureBox1_Click;
             // 
             // label1
             // 
@@ -129,6 +133,7 @@ namespace book_store_system_gui
             listView1.Size = new Size(778, 532);
             listView1.TabIndex = 10;
             listView1.UseCompatibleStateImageBehavior = false;
+            listView1.SelectedIndexChanged += listView1_SelectedIndexChanged_1;
             // 
             // label2
             // 
@@ -175,6 +180,7 @@ namespace book_store_system_gui
             Controls.Add(button1);
             Name = "AdimMenu";
             Text = "Admin Dashboard";
+            Load += AdimMenu_Load;
             ((ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
             PerformLayout();
@@ -195,7 +201,7 @@ namespace book_store_system_gui
         private void button1_Click_1(object sender, EventArgs e)
         {
             AddItem newForm = new AddItem();
-            newForm.Show();
+            newForm.ShowDialog();
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -206,19 +212,35 @@ namespace book_store_system_gui
         private void button4_Click(object sender, EventArgs e)
         {
             Ordered newForm = new Ordered();
-            newForm.Show();
+            newForm.ShowDialog();
         }
 
         private void button5_Click(object sender, EventArgs e)
         {
             AccountList newForm = new AccountList();
-            newForm.Show();
+            newForm.ShowDialog();
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
             ItemInStock newForm = new ItemInStock();
-            newForm.Show();
+            newForm.ShowDialog();
+        }
+
+        private void AdimMenu_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            UpdateUser updateUser = new UpdateUser();
+            updateUser.ShowDialog();
+        }
+
+        private void listView1_SelectedIndexChanged_1(object sender, EventArgs e)
+        {
+
         }
     }
 }

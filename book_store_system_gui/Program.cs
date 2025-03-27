@@ -1,3 +1,5 @@
+using book_store_system_gui.UI;
+
 namespace book_store_system_gui
 {
     internal static class Program
@@ -11,7 +13,7 @@ namespace book_store_system_gui
             // To customize application configuration such as set high DPI settings or default font,
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
-            Application.Run(new SigninForm());
+            Application.Run(new SplashScreen());
         }
     }
 }

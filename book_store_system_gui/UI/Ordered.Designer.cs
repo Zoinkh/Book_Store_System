@@ -30,6 +30,7 @@
         {
             listView1 = new ListView();
             label1 = new Label();
+            button1 = new Button();
             SuspendLayout();
             // 
             // listView1
@@ -50,12 +51,23 @@
             label1.TabIndex = 1;
             label1.Text = "Ordered Book";
             // 
+            // button1
+            // 
+            button1.BackColor = Color.LightCoral;
+            button1.Location = new Point(12, 12);
+            button1.Name = "button1";
+            button1.Size = new Size(76, 37);
+            button1.TabIndex = 2;
+            button1.Text = "Back";
+            button1.UseVisualStyleBackColor = false;
+            // 
             // Ordered
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.LightSkyBlue;
             ClientSize = new Size(809, 482);
+            Controls.Add(button1);
             Controls.Add(label1);
             Controls.Add(listView1);
             Name = "Ordered";
@@ -68,5 +80,6 @@
 
         private ListView listView1;
         private Label label1;
+        private Button button1;
     }
 }

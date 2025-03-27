@@ -37,6 +37,8 @@
             bnt_LogIn = new Button();
             btn_Exit = new Button();
             rbtn_KeepMeIn = new RadioButton();
+            linkLabel1 = new LinkLabel();
+            button1 = new Button();
             SuspendLayout();
             // 
             // label1
@@ -107,7 +109,7 @@
             bnt_LogIn.TabIndex = 6;
             bnt_LogIn.Text = "Log In";
             bnt_LogIn.UseVisualStyleBackColor = false;
-            bnt_LogIn.Click += button1_Click;
+            bnt_LogIn.Click += bnt_LogIn_Click;
             // 
             // btn_Exit
             // 
@@ -133,12 +135,36 @@
             rbtn_KeepMeIn.Text = "Keep Me In";
             rbtn_KeepMeIn.UseVisualStyleBackColor = true;
             // 
+            // linkLabel1
+            // 
+            linkLabel1.AutoSize = true;
+            linkLabel1.Font = new Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            linkLabel1.Location = new Point(363, 217);
+            linkLabel1.Name = "linkLabel1";
+            linkLabel1.Size = new Size(61, 20);
+            linkLabel1.TabIndex = 9;
+            linkLabel1.TabStop = true;
+            linkLabel1.Text = "Sing Up";
+            linkLabel1.LinkClicked += linkLabel1_LinkClicked;
+            // 
+            // button1
+            // 
+            button1.Location = new Point(437, 258);
+            button1.Name = "button1";
+            button1.Size = new Size(63, 45);
+            button1.TabIndex = 10;
+            button1.Text = "Admin Test";
+            button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
+            // 
             // SigninForm
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.LightSkyBlue;
             ClientSize = new Size(512, 331);
+            Controls.Add(button1);
+            Controls.Add(linkLabel1);
             Controls.Add(rbtn_KeepMeIn);
             Controls.Add(btn_Exit);
             Controls.Add(bnt_LogIn);
@@ -167,5 +193,7 @@
         private Button bnt_LogIn;
         private Button btn_Exit;
         private RadioButton rbtn_KeepMeIn;
+        private LinkLabel linkLabel1;
+        private Button button1;
     }
 }

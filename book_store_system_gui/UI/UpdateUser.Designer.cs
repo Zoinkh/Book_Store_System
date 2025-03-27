@@ -237,6 +237,7 @@
             button1.TabIndex = 19;
             button1.Text = "Update";
             button1.UseVisualStyleBackColor = false;
+            button1.Click += button1_Click;
             // 
             // button2
             // 
@@ -248,6 +249,7 @@
             button2.TabIndex = 20;
             button2.Text = "Delete";
             button2.UseVisualStyleBackColor = false;
+            button2.Click += button2_Click;
             // 
             // pictureBox1
             // 
@@ -307,6 +309,7 @@
             Controls.Add(label1);
             Name = "UpdateUser";
             Text = "UpdateUser";
+            Load += UpdateUser_Load;
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
             PerformLayout();
