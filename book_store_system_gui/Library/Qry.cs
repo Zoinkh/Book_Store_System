@@ -9,7 +9,8 @@ namespace book_store_system_gui.Library
 {
     class Qry
     {
-        public static bool AddAccount(string account, string password,string DBpath)
+        public static void AddBook() { }
+        public static bool AddAccountAndPassword(string account, string password, string DBpath)
         {
             try
             {
@@ -39,7 +40,7 @@ namespace book_store_system_gui.Library
 
         }
 
-        public bool UpdateAccount(string account, string newPassword,string DBpath)// will need more user infomation
+        public bool UpdateAccountAndPassword(string account, string newPassword, string DBpath)// will need more user infomation
         {
             try
             {
@@ -67,7 +68,7 @@ namespace book_store_system_gui.Library
                 return false;
             }
         }
-        public bool RemoveAccount(string account,string DBpath)
+        public bool Remo(string account, string DBpath)
         {
             try
             {
@@ -94,5 +95,6 @@ namespace book_store_system_gui.Library
                 return false;
             }
         }
+
     }
 }

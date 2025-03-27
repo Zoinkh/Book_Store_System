@@ -16,5 +16,10 @@ namespace book_store_system_gui.Library
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

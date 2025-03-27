@@ -16,5 +16,10 @@ namespace book_store_system_gui.UI
         {
             InitializeComponent();
         }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -25,7 +25,10 @@
     <Compile Update="UI\ItemDetail.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="UI\UserFillInfomation.cs">
+    <Compile Update="UI\SingUp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="UI\SingUpInfo.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="UI\SigninForm.cs">

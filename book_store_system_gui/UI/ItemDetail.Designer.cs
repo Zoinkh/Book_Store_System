@@ -36,7 +36,6 @@
             label5 = new Label();
             label6 = new Label();
             label7 = new Label();
-            label8 = new Label();
             pictureBox1 = new PictureBox();
             button2 = new Button();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
@@ -45,28 +44,28 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Font = new Font("Cambria", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label1.Location = new Point(323, 37);
+            label1.Font = new Font("Cambria", 18F, FontStyle.Bold);
+            label1.Location = new Point(422, 59);
             label1.Name = "label1";
-            label1.Size = new Size(58, 28);
+            label1.Size = new Size(54, 28);
             label1.TabIndex = 0;
-            label1.Text = "title";
+            label1.Text = "No :";
             // 
             // label2
             // 
             label2.AutoSize = true;
             label2.Font = new Font("Cambria", 18F, FontStyle.Bold);
-            label2.Location = new Point(323, 81);
+            label2.Location = new Point(400, 103);
             label2.Name = "label2";
-            label2.Size = new Size(80, 28);
+            label2.Size = new Size(76, 28);
             label2.TabIndex = 1;
-            label2.Text = "label2";
+            label2.Text = "Title :";
             // 
             // button1
             // 
             button1.BackColor = Color.LightGreen;
             button1.Font = new Font("Cambria", 14.25F, FontStyle.Bold);
-            button1.Location = new Point(239, 447);
+            button1.Location = new Point(365, 446);
             button1.Name = "button1";
             button1.Size = new Size(280, 42);
             button1.TabIndex = 2;
@@ -77,61 +76,52 @@
             // 
             label3.AutoSize = true;
             label3.Font = new Font("Cambria", 18F, FontStyle.Bold);
-            label3.Location = new Point(323, 129);
+            label3.Location = new Point(375, 152);
             label3.Name = "label3";
-            label3.Size = new Size(80, 28);
+            label3.Size = new Size(101, 28);
             label3.TabIndex = 3;
-            label3.Text = "label3";
+            label3.Text = "Author :";
+            label3.Click += label3_Click;
             // 
             // label4
             // 
             label4.AutoSize = true;
             label4.Font = new Font("Cambria", 18F, FontStyle.Bold);
-            label4.Location = new Point(323, 179);
+            label4.Location = new Point(345, 203);
             label4.Name = "label4";
-            label4.Size = new Size(80, 28);
+            label4.Size = new Size(131, 28);
             label4.TabIndex = 4;
-            label4.Text = "label4";
+            label4.Text = "Publisher :";
             // 
             // label5
             // 
             label5.AutoSize = true;
             label5.Font = new Font("Cambria", 18F, FontStyle.Bold);
-            label5.Location = new Point(323, 229);
+            label5.Location = new Point(312, 253);
             label5.Name = "label5";
-            label5.Size = new Size(80, 28);
+            label5.Size = new Size(164, 28);
             label5.TabIndex = 5;
-            label5.Text = "label5";
+            label5.Text = "Publish Date :";
             // 
             // label6
             // 
             label6.AutoSize = true;
             label6.Font = new Font("Cambria", 18F, FontStyle.Bold);
-            label6.Location = new Point(323, 277);
+            label6.Location = new Point(371, 303);
             label6.Name = "label6";
-            label6.Size = new Size(80, 28);
+            label6.Size = new Size(105, 28);
             label6.TabIndex = 6;
-            label6.Text = "label6";
+            label6.Text = "Edition :";
             // 
             // label7
             // 
             label7.AutoSize = true;
             label7.Font = new Font("Cambria", 18F, FontStyle.Bold);
-            label7.Location = new Point(323, 329);
+            label7.Location = new Point(400, 359);
             label7.Name = "label7";
-            label7.Size = new Size(80, 28);
+            label7.Size = new Size(76, 28);
             label7.TabIndex = 7;
-            label7.Text = "label7";
-            // 
-            // label8
-            // 
-            label8.AutoSize = true;
-            label8.Font = new Font("Cambria", 18F, FontStyle.Bold);
-            label8.Location = new Point(323, 379);
-            label8.Name = "label8";
-            label8.Size = new Size(80, 28);
-            label8.TabIndex = 8;
-            label8.Text = "label8";
+            label7.Text = "ISBN :";
             // 
             // pictureBox1
             // 
@@ -145,7 +135,7 @@
             // 
             button2.BackColor = Color.LightCoral;
             button2.Font = new Font("Cambria", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            button2.Location = new Point(80, 447);
+            button2.Location = new Point(206, 446);
             button2.Name = "button2";
             button2.RightToLeft = RightToLeft.No;
             button2.Size = new Size(113, 42);
@@ -158,10 +148,9 @@
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.LightSkyBlue;
-            ClientSize = new Size(742, 520);
+            ClientSize = new Size(845, 520);
             Controls.Add(button2);
             Controls.Add(pictureBox1);
-            Controls.Add(label8);
             Controls.Add(label7);
             Controls.Add(label6);
             Controls.Add(label5);
@@ -187,7 +176,6 @@
         private Label label5;
         private Label label6;
         private Label label7;
-        private Label label8;
         private PictureBox pictureBox1;
         private Button button2;
     }

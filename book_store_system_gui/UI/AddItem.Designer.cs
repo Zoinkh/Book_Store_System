@@ -29,195 +29,86 @@
         private void InitializeComponent()
         {
             pictureBox1 = new PictureBox();
-            label10 = new Label();
-            textBox9 = new TextBox();
-            label9 = new Label();
-            textBox8 = new TextBox();
-            label8 = new Label();
             textBox7 = new TextBox();
-            label7 = new Label();
             textBox6 = new TextBox();
-            label6 = new Label();
             textBox5 = new TextBox();
-            label5 = new Label();
             textBox4 = new TextBox();
-            label4 = new Label();
             textBox3 = new TextBox();
-            label3 = new Label();
             textBox2 = new TextBox();
-            label2 = new Label();
             textBox1 = new TextBox();
             label1 = new Label();
             button1 = new Button();
+            label11 = new Label();
+            label12 = new Label();
+            label13 = new Label();
+            label14 = new Label();
+            label15 = new Label();
+            label16 = new Label();
+            label17 = new Label();
+            button2 = new Button();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
             // pictureBox1
             // 
-            pictureBox1.Location = new Point(332, 102);
+            pictureBox1.Location = new Point(378, 88);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(211, 261);
+            pictureBox1.Size = new Size(185, 246);
             pictureBox1.TabIndex = 41;
             pictureBox1.TabStop = false;
-            // 
-            // label10
-            // 
-            label10.AutoSize = true;
-            label10.Font = new Font("Cambria", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label10.Location = new Point(49, 377);
-            label10.Name = "label10";
-            label10.Size = new Size(75, 22);
-            label10.TabIndex = 40;
-            label10.Text = "label10";
-            // 
-            // textBox9
-            // 
-            textBox9.Font = new Font("Cambria", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            textBox9.Location = new Point(119, 374);
-            textBox9.Name = "textBox9";
-            textBox9.Size = new Size(182, 30);
-            textBox9.TabIndex = 39;
-            // 
-            // label9
-            // 
-            label9.AutoSize = true;
-            label9.Font = new Font("Cambria", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label9.Location = new Point(49, 341);
-            label9.Name = "label9";
-            label9.Size = new Size(64, 22);
-            label9.TabIndex = 38;
-            label9.Text = "label9";
-            // 
-            // textBox8
-            // 
-            textBox8.Font = new Font("Cambria", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            textBox8.Location = new Point(119, 338);
-            textBox8.Name = "textBox8";
-            textBox8.Size = new Size(182, 30);
-            textBox8.TabIndex = 37;
-            // 
-            // label8
-            // 
-            label8.AutoSize = true;
-            label8.Font = new Font("Cambria", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label8.Location = new Point(49, 305);
-            label8.Name = "label8";
-            label8.Size = new Size(64, 22);
-            label8.TabIndex = 36;
-            label8.Text = "label8";
             // 
             // textBox7
             // 
             textBox7.Font = new Font("Cambria", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            textBox7.Location = new Point(119, 302);
+            textBox7.Location = new Point(154, 304);
             textBox7.Name = "textBox7";
             textBox7.Size = new Size(182, 30);
             textBox7.TabIndex = 35;
             // 
-            // label7
-            // 
-            label7.AutoSize = true;
-            label7.Font = new Font("Cambria", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label7.Location = new Point(49, 269);
-            label7.Name = "label7";
-            label7.Size = new Size(64, 22);
-            label7.TabIndex = 34;
-            label7.Text = "label7";
-            // 
             // textBox6
             // 
             textBox6.Font = new Font("Cambria", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            textBox6.Location = new Point(119, 266);
+            textBox6.Location = new Point(154, 268);
             textBox6.Name = "textBox6";
             textBox6.Size = new Size(182, 30);
             textBox6.TabIndex = 33;
             // 
-            // label6
-            // 
-            label6.AutoSize = true;
-            label6.Font = new Font("Cambria", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label6.Location = new Point(49, 233);
-            label6.Name = "label6";
-            label6.Size = new Size(64, 22);
-            label6.TabIndex = 32;
-            label6.Text = "label6";
-            // 
             // textBox5
             // 
             textBox5.Font = new Font("Cambria", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            textBox5.Location = new Point(119, 230);
+            textBox5.Location = new Point(154, 232);
             textBox5.Name = "textBox5";
             textBox5.Size = new Size(182, 30);
             textBox5.TabIndex = 31;
             // 
-            // label5
-            // 
-            label5.AutoSize = true;
-            label5.Font = new Font("Cambria", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label5.Location = new Point(49, 197);
-            label5.Name = "label5";
-            label5.Size = new Size(64, 22);
-            label5.TabIndex = 30;
-            label5.Text = "label5";
-            // 
             // textBox4
             // 
             textBox4.Font = new Font("Cambria", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            textBox4.Location = new Point(119, 194);
+            textBox4.Location = new Point(154, 196);
             textBox4.Name = "textBox4";
             textBox4.Size = new Size(182, 30);
             textBox4.TabIndex = 29;
             // 
-            // label4
-            // 
-            label4.AutoSize = true;
-            label4.Font = new Font("Cambria", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label4.Location = new Point(49, 161);
-            label4.Name = "label4";
-            label4.Size = new Size(64, 22);
-            label4.TabIndex = 28;
-            label4.Text = "label4";
-            // 
             // textBox3
             // 
             textBox3.Font = new Font("Cambria", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            textBox3.Location = new Point(119, 158);
+            textBox3.Location = new Point(154, 160);
             textBox3.Name = "textBox3";
             textBox3.Size = new Size(182, 30);
             textBox3.TabIndex = 27;
             // 
-            // label3
-            // 
-            label3.AutoSize = true;
-            label3.Font = new Font("Cambria", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label3.Location = new Point(49, 125);
-            label3.Name = "label3";
-            label3.Size = new Size(64, 22);
-            label3.TabIndex = 26;
-            label3.Text = "label3";
-            // 
             // textBox2
             // 
             textBox2.Font = new Font("Cambria", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            textBox2.Location = new Point(119, 122);
+            textBox2.Location = new Point(154, 124);
             textBox2.Name = "textBox2";
             textBox2.Size = new Size(182, 30);
             textBox2.TabIndex = 25;
             // 
-            // label2
-            // 
-            label2.AutoSize = true;
-            label2.Font = new Font("Cambria", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label2.Location = new Point(49, 89);
-            label2.Name = "label2";
-            label2.Size = new Size(64, 22);
-            label2.TabIndex = 24;
-            label2.Text = "label2";
-            // 
             // textBox1
             // 
             textBox1.Font = new Font("Cambria", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            textBox1.Location = new Point(119, 86);
+            textBox1.Location = new Point(154, 88);
             textBox1.Name = "textBox1";
             textBox1.Size = new Size(182, 30);
             textBox1.TabIndex = 23;
@@ -237,42 +128,122 @@
             // 
             button1.BackColor = Color.LightGreen;
             button1.Font = new Font("Cambria", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            button1.Location = new Point(167, 433);
+            button1.Location = new Point(291, 361);
             button1.Name = "button1";
             button1.Size = new Size(253, 45);
             button1.TabIndex = 43;
             button1.Text = "Add";
             button1.UseVisualStyleBackColor = false;
             // 
+            // label11
+            // 
+            label11.AutoSize = true;
+            label11.Font = new Font("Cambria", 14.25F, FontStyle.Bold);
+            label11.Location = new Point(87, 307);
+            label11.Name = "label11";
+            label11.Size = new Size(61, 22);
+            label11.TabIndex = 50;
+            label11.Text = "ISBN :";
+            // 
+            // label12
+            // 
+            label12.AutoSize = true;
+            label12.Font = new Font("Cambria", 14.25F, FontStyle.Bold);
+            label12.Location = new Point(68, 268);
+            label12.Name = "label12";
+            label12.Size = new Size(82, 22);
+            label12.TabIndex = 49;
+            label12.Text = "Edition :";
+            label12.Click += label12_Click;
+            // 
+            // label13
+            // 
+            label13.AutoSize = true;
+            label13.Font = new Font("Cambria", 14.25F, FontStyle.Bold);
+            label13.Location = new Point(22, 235);
+            label13.Name = "label13";
+            label13.Size = new Size(129, 22);
+            label13.TabIndex = 48;
+            label13.Text = "Publish Date :";
+            // 
+            // label14
+            // 
+            label14.AutoSize = true;
+            label14.Font = new Font("Cambria", 14.25F, FontStyle.Bold);
+            label14.Location = new Point(47, 199);
+            label14.Name = "label14";
+            label14.Size = new Size(104, 22);
+            label14.TabIndex = 47;
+            label14.Text = "Publisher :";
+            // 
+            // label15
+            // 
+            label15.AutoSize = true;
+            label15.Font = new Font("Cambria", 14.25F, FontStyle.Bold);
+            label15.Location = new Point(68, 163);
+            label15.Name = "label15";
+            label15.Size = new Size(80, 22);
+            label15.TabIndex = 46;
+            label15.Text = "Author :";
+            // 
+            // label16
+            // 
+            label16.AutoSize = true;
+            label16.Font = new Font("Cambria", 14.25F, FontStyle.Bold);
+            label16.Location = new Point(88, 127);
+            label16.Name = "label16";
+            label16.Size = new Size(60, 22);
+            label16.TabIndex = 45;
+            label16.Text = "Title :";
+            // 
+            // label17
+            // 
+            label17.AutoSize = true;
+            label17.Font = new Font("Cambria", 14.25F, FontStyle.Bold);
+            label17.Location = new Point(105, 91);
+            label17.Name = "label17";
+            label17.Size = new Size(43, 22);
+            label17.TabIndex = 44;
+            label17.Text = "No :";
+            // 
+            // button2
+            // 
+            button2.BackColor = Color.LightCoral;
+            button2.Font = new Font("Cambria", 14.25F, FontStyle.Bold);
+            button2.Location = new Point(95, 361);
+            button2.Name = "button2";
+            button2.Size = new Size(159, 45);
+            button2.TabIndex = 51;
+            button2.Text = "Cancel";
+            button2.UseVisualStyleBackColor = false;
+            // 
             // AddItem
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.LightSkyBlue;
-            ClientSize = new Size(579, 490);
+            ClientSize = new Size(619, 450);
+            Controls.Add(button2);
+            Controls.Add(label11);
+            Controls.Add(label12);
+            Controls.Add(label13);
+            Controls.Add(label14);
+            Controls.Add(label15);
+            Controls.Add(label16);
+            Controls.Add(label17);
             Controls.Add(button1);
             Controls.Add(pictureBox1);
-            Controls.Add(label10);
-            Controls.Add(textBox9);
-            Controls.Add(label9);
-            Controls.Add(textBox8);
-            Controls.Add(label8);
             Controls.Add(textBox7);
-            Controls.Add(label7);
             Controls.Add(textBox6);
-            Controls.Add(label6);
             Controls.Add(textBox5);
-            Controls.Add(label5);
             Controls.Add(textBox4);
-            Controls.Add(label4);
             Controls.Add(textBox3);
-            Controls.Add(label3);
             Controls.Add(textBox2);
-            Controls.Add(label2);
             Controls.Add(textBox1);
             Controls.Add(label1);
             Name = "AddItem";
             Text = "AddBook";
+            Load += AddItem_Load;
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
             PerformLayout();
@@ -281,25 +252,22 @@
         #endregion
 
         private PictureBox pictureBox1;
-        private Label label10;
-        private TextBox textBox9;
-        private Label label9;
-        private TextBox textBox8;
-        private Label label8;
         private TextBox textBox7;
-        private Label label7;
         private TextBox textBox6;
-        private Label label6;
         private TextBox textBox5;
-        private Label label5;
         private TextBox textBox4;
-        private Label label4;
         private TextBox textBox3;
-        private Label label3;
         private TextBox textBox2;
-        private Label label2;
         private TextBox textBox1;
         private Label label1;
         private Button button1;
+        private Label label11;
+        private Label label12;
+        private Label label13;
+        private Label label14;
+        private Label label15;
+        private Label label16;
+        private Label label17;
+        private Button button2;
     }
 }

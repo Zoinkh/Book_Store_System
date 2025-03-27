@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace book_store_system_gui.UI
 {
-    public partial class UserFillInfomation: Form
+    public partial class SingUp : Form
     {
-        public UserFillInfomation()
+        public SingUp()
         {
             InitializeComponent();
+        }
+
+        private void SingUp_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

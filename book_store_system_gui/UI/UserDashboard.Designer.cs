@@ -28,25 +28,16 @@
         /// </summary>
         private void InitializeComponent()
         {
-            listBox1 = new ListBox();
             label1 = new Label();
             button1 = new Button();
             textBox1 = new TextBox();
             pictureBox1 = new PictureBox();
-            pictureBox2 = new PictureBox();
+            Checkout = new PictureBox();
             label2 = new Label();
+            checkedListBox1 = new CheckedListBox();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)Checkout).BeginInit();
             SuspendLayout();
-            // 
-            // listBox1
-            // 
-            listBox1.FormattingEnabled = true;
-            listBox1.ItemHeight = 15;
-            listBox1.Location = new Point(12, 80);
-            listBox1.Name = "listBox1";
-            listBox1.Size = new Size(1034, 544);
-            listBox1.TabIndex = 0;
             // 
             // label1
             // 
@@ -60,20 +51,21 @@
             // 
             // button1
             // 
-            button1.Font = new Font("Cambria", 9.75F, FontStyle.Bold);
-            button1.Location = new Point(880, 41);
+            button1.Font = new Font("Cambria", 12F, FontStyle.Bold);
+            button1.Location = new Point(895, 39);
             button1.Name = "button1";
-            button1.Size = new Size(64, 23);
+            button1.Size = new Size(71, 32);
             button1.TabIndex = 2;
             button1.Text = "Search";
             button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
             // 
             // textBox1
             // 
-            textBox1.Font = new Font("Cambria", 9.75F, FontStyle.Bold);
-            textBox1.Location = new Point(734, 41);
+            textBox1.Font = new Font("Cambria", 12F, FontStyle.Bold);
+            textBox1.Location = new Point(697, 43);
             textBox1.Name = "textBox1";
-            textBox1.Size = new Size(140, 23);
+            textBox1.Size = new Size(192, 26);
             textBox1.TabIndex = 3;
             // 
             // pictureBox1
@@ -84,13 +76,13 @@
             pictureBox1.TabIndex = 5;
             pictureBox1.TabStop = false;
             // 
-            // pictureBox2
+            // Checkout
             // 
-            pictureBox2.Location = new Point(984, 20);
-            pictureBox2.Name = "pictureBox2";
-            pictureBox2.Size = new Size(45, 45);
-            pictureBox2.TabIndex = 6;
-            pictureBox2.TabStop = false;
+            Checkout.Location = new Point(984, 20);
+            Checkout.Name = "Checkout";
+            Checkout.Size = new Size(45, 45);
+            Checkout.TabIndex = 6;
+            Checkout.TabStop = false;
             // 
             // label2
             // 
@@ -102,35 +94,44 @@
             label2.TabIndex = 7;
             label2.Text = "Hello, Name.";
             // 
+            // checkedListBox1
+            // 
+            checkedListBox1.FormattingEnabled = true;
+            checkedListBox1.Location = new Point(14, 98);
+            checkedListBox1.Name = "checkedListBox1";
+            checkedListBox1.Size = new Size(1015, 508);
+            checkedListBox1.TabIndex = 8;
+            checkedListBox1.SelectedIndexChanged += checkedListBox1_SelectedIndexChanged;
+            // 
             // UserHome
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.LightSkyBlue;
             ClientSize = new Size(1059, 618);
+            Controls.Add(checkedListBox1);
             Controls.Add(label2);
-            Controls.Add(pictureBox2);
+            Controls.Add(Checkout);
             Controls.Add(pictureBox1);
             Controls.Add(textBox1);
             Controls.Add(button1);
             Controls.Add(label1);
-            Controls.Add(listBox1);
             Name = "UserHome";
             Text = "UserForm";
+            Load += UserHome_Load;
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
+            ((System.ComponentModel.ISupportInitialize)Checkout).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
 
         #endregion
-
-        private ListBox listBox1;
         private Label label1;
         private Button button1;
         private TextBox textBox1;
         private PictureBox pictureBox1;
-        private PictureBox pictureBox2;
+        private PictureBox Checkout;
         private Label label2;
+        private CheckedListBox checkedListBox1;
     }
 }
