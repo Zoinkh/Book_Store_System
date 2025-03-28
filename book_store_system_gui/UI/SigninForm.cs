@@ -43,6 +43,7 @@ namespace book_store_system_gui
         private void bnt_LogIn_Click(object sender, EventArgs e)
         {
             UserHome dashboard = new UserHome();
+            dashboard.FormClosed += (s, args) => this.Close();
             dashboard.Show();
             this.Hide();
 
@@ -51,6 +52,7 @@ namespace book_store_system_gui
         private void button1_Click(object sender, EventArgs e)
         {
             AdimMenu admin = new AdimMenu();
+            admin.FormClosed += (s, args) => this.Close();
             admin.Show();
             this.Hide();
         }

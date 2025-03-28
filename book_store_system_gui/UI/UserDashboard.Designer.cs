@@ -35,7 +35,7 @@
             pictureBox1 = new PictureBox();
             Checkout = new PictureBox();
             label2 = new Label();
-            checkedListBox1 = new CheckedListBox();
+            listView1 = new ListView();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)Checkout).BeginInit();
             SuspendLayout();
@@ -82,7 +82,7 @@
             // 
             // Checkout
             // 
-            Checkout.Image = Properties.Resources._default;
+            Checkout.Image = (Image)resources.GetObject("Checkout.Image");
             Checkout.Location = new Point(972, 22);
             Checkout.Name = "Checkout";
             Checkout.Size = new Size(57, 58);
@@ -101,14 +101,14 @@
             label2.TabIndex = 7;
             label2.Text = "Hello, Name.";
             // 
-            // checkedListBox1
+            // listView1
             // 
-            checkedListBox1.FormattingEnabled = true;
-            checkedListBox1.Location = new Point(14, 98);
-            checkedListBox1.Name = "checkedListBox1";
-            checkedListBox1.Size = new Size(1015, 508);
-            checkedListBox1.TabIndex = 8;
-            checkedListBox1.SelectedIndexChanged += checkedListBox1_SelectedIndexChanged;
+            listView1.Location = new Point(14, 106);
+            listView1.Name = "listView1";
+            listView1.Size = new Size(1033, 509);
+            listView1.TabIndex = 8;
+            listView1.UseCompatibleStateImageBehavior = false;
+            listView1.SelectedIndexChanged += listView1_SelectedIndexChanged;
             // 
             // UserHome
             // 
@@ -116,7 +116,7 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.LightSkyBlue;
             ClientSize = new Size(1059, 618);
-            Controls.Add(checkedListBox1);
+            Controls.Add(listView1);
             Controls.Add(label2);
             Controls.Add(Checkout);
             Controls.Add(pictureBox1);
@@ -139,6 +139,6 @@
         private PictureBox pictureBox1;
         private PictureBox Checkout;
         private Label label2;
-        private CheckedListBox checkedListBox1;
+        private ListView listView1;
     }
 }

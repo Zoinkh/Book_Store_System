@@ -54,7 +54,6 @@
             label1.Size = new Size(202, 32);
             label1.TabIndex = 1;
             label1.Text = "Current Order :";
-
             // 
             // label2
             // 
@@ -123,6 +122,7 @@
             Controls.Add(listView1);
             Name = "ItemInStock";
             Text = "ItemInStock";
+            Load += ItemInStock_Load;
             ResumeLayout(false);
             PerformLayout();
         }

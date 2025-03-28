@@ -26,8 +26,10 @@ namespace book_store_system_gui.UI
         {
             await Task.Delay(3000);
             SigninForm singin = new SigninForm();
+            singin.FormClosed += (s, args) => this.Close();
             singin.Show();
             this.Hide();
+                   
         }
     }
 }

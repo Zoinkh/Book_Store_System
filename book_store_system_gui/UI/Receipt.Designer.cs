@@ -28,19 +28,49 @@
         /// </summary>
         private void InitializeComponent()
         {
+            listView1 = new ListView();
+            label1 = new Label();
             SuspendLayout();
+            // 
+            // listView1
+            // 
+            listView1.Location = new Point(12, 67);
+            listView1.Name = "listView1";
+            listView1.Size = new Size(587, 538);
+            listView1.TabIndex = 0;
+            listView1.UseCompatibleStateImageBehavior = false;
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Font = new Font("Cambria", 27.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label1.Location = new Point(247, 21);
+            label1.Name = "label1";
+            label1.Size = new Size(147, 43);
+            label1.TabIndex = 1;
+            label1.Text = "Receipt";
+            label1.Click += label1_Click;
             // 
             // Receipt
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.LightSkyBlue;
-            ClientSize = new Size(783, 463);
+            ClientSize = new Size(611, 617);
+            Controls.Add(label1);
+            Controls.Add(listView1);
+            FormBorderStyle = FormBorderStyle.FixedToolWindow;
+            MaximizeBox = false;
             Name = "Receipt";
             Text = "Receipt";
+            WindowState = FormWindowState.Minimized;
             ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
+
+        private ListView listView1;
+        private Label label1;
     }
 }

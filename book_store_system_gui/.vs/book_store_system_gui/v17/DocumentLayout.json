@@ -1,7 +1,12 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Rith\\Desktop\\Code_Archive\\Csharp\\S1_Project\\Book_Store_System\\book_store_system_gui\\",
-  "Documents": [],
+  "WorkspaceRootPath": "C:\\Users\\Rith\\Desktop\\Book_Store_System\\book_store_system_gui\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{24027F13-5085-4825-B69E-8B56DC8F24A1}|book_store_system_gui.csproj|c:\\users\\rith\\desktop\\book_store_system\\book_store_system_gui\\ui\\checkout.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24027F13-5085-4825-B69E-8B56DC8F24A1}|book_store_system_gui.csproj|solutionrelative:ui\\checkout.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +14,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -22,6 +27,19 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Checkout.cs",
+              "DocumentMoniker": "C:\\Users\\Rith\\Desktop\\Book_Store_System\\book_store_system_gui\\UI\\Checkout.cs",
+              "RelativeDocumentMoniker": "UI\\Checkout.cs",
+              "ToolTip": "C:\\Users\\Rith\\Desktop\\Book_Store_System\\book_store_system_gui\\UI\\Checkout.cs",
+              "RelativeToolTip": "UI\\Checkout.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-28T16:48:56.316Z",
+              "EditorCaption": ""
             }
           ]
         }

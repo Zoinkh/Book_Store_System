@@ -11,6 +11,7 @@ x	-addToCart
 x	-report
 x	-receit
 	-print out data form db
+	-set window to fixed size
 
 +DB
 	-set account no duplicate

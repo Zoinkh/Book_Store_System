@@ -29,8 +29,8 @@
         private void InitializeComponent()
         {
             label1 = new Label();
-            listBox1 = new ListBox();
             button1 = new Button();
+            listView1 = new ListView();
             SuspendLayout();
             // 
             // label1
@@ -43,15 +43,6 @@
             label1.TabIndex = 0;
             label1.Text = "Account List";
             // 
-            // listBox1
-            // 
-            listBox1.FormattingEnabled = true;
-            listBox1.ItemHeight = 15;
-            listBox1.Location = new Point(12, 59);
-            listBox1.Name = "listBox1";
-            listBox1.Size = new Size(776, 544);
-            listBox1.TabIndex = 1;
-            // 
             // button1
             // 
             button1.BackColor = Color.LightCoral;
@@ -61,6 +52,16 @@
             button1.TabIndex = 2;
             button1.Text = "Back";
             button1.UseVisualStyleBackColor = false;
+            button1.Click += button1_Click;
+            // 
+            // listView1
+            // 
+            listView1.Location = new Point(12, 86);
+            listView1.Name = "listView1";
+            listView1.Size = new Size(770, 509);
+            listView1.TabIndex = 3;
+            listView1.UseCompatibleStateImageBehavior = false;
+            listView1.SelectedIndexChanged += listView1_SelectedIndexChanged;
             // 
             // AccountList
             // 
@@ -68,11 +69,12 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.LightSkyBlue;
             ClientSize = new Size(800, 594);
+            Controls.Add(listView1);
             Controls.Add(button1);
-            Controls.Add(listBox1);
             Controls.Add(label1);
             Name = "AccountList";
             Text = "AccountList";
+            Load += AccountList_Load;
             ResumeLayout(false);
             PerformLayout();
         }
@@ -80,7 +82,7 @@
         #endregion
 
         private Label label1;
-        private ListBox listBox1;
         private Button button1;
+        private ListView listView1;
     }
 }

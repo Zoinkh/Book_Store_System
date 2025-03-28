@@ -1,32 +1,7 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Rith\\Desktop\\Code_Archive\\Csharp\\S1_Project\\Book_Store_System\\book_store_system_gui\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{24027F13-5085-4825-B69E-8B56DC8F24A1}|book_store_system_gui.csproj|c:\\users\\rith\\desktop\\code_archive\\csharp\\s1_project\\book_store_system\\book_store_system_gui\\library\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{24027F13-5085-4825-B69E-8B56DC8F24A1}|book_store_system_gui.csproj|solutionrelative:library\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{24027F13-5085-4825-B69E-8B56DC8F24A1}|book_store_system_gui.csproj|c:\\users\\rith\\desktop\\code_archive\\csharp\\s1_project\\book_store_system\\book_store_system_gui\\library\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{24027F13-5085-4825-B69E-8B56DC8F24A1}|book_store_system_gui.csproj|solutionrelative:library\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{24027F13-5085-4825-B69E-8B56DC8F24A1}|book_store_system_gui.csproj|c:\\users\\rith\\desktop\\code_archive\\csharp\\s1_project\\book_store_system\\book_store_system_gui\\library\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{24027F13-5085-4825-B69E-8B56DC8F24A1}|book_store_system_gui.csproj|solutionrelative:library\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{24027F13-5085-4825-B69E-8B56DC8F24A1}|book_store_system_gui.csproj|c:\\users\\rith\\desktop\\code_archive\\csharp\\s1_project\\book_store_system\\book_store_system_gui\\library\\log.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{24027F13-5085-4825-B69E-8B56DC8F24A1}|book_store_system_gui.csproj|solutionrelative:library\\log.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{24027F13-5085-4825-B69E-8B56DC8F24A1}|book_store_system_gui.csproj|c:\\users\\rith\\desktop\\code_archive\\csharp\\s1_project\\book_store_system\\book_store_system_gui\\library\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{24027F13-5085-4825-B69E-8B56DC8F24A1}|book_store_system_gui.csproj|solutionrelative:library\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{24027F13-5085-4825-B69E-8B56DC8F24A1}|book_store_system_gui.csproj|c:\\users\\rith\\desktop\\code_archive\\csharp\\s1_project\\book_store_system\\book_store_system_gui\\library\\check.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{24027F13-5085-4825-B69E-8B56DC8F24A1}|book_store_system_gui.csproj|solutionrelative:library\\check.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "WorkspaceRootPath": "C:\\Users\\Rith\\Desktop\\Book_Store_System\\book_store_system_gui\\",
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -34,60 +9,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": -1,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Admin.cs",
-              "DocumentMoniker": "C:\\Users\\Rith\\Desktop\\Code_Archive\\Csharp\\S1_Project\\Book_Store_System\\book_store_system_gui\\Library\\Admin.cs",
-              "RelativeDocumentMoniker": "Library\\Admin.cs",
-              "ToolTip": "C:\\Users\\Rith\\Desktop\\Code_Archive\\Csharp\\S1_Project\\Book_Store_System\\book_store_system_gui\\Library\\Admin.cs*",
-              "RelativeToolTip": "Library\\Admin.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-28T13:58:38.041Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Book.cs",
-              "DocumentMoniker": "C:\\Users\\Rith\\Desktop\\Code_Archive\\Csharp\\S1_Project\\Book_Store_System\\book_store_system_gui\\Library\\Book.cs",
-              "RelativeDocumentMoniker": "Library\\Book.cs",
-              "ToolTip": "C:\\Users\\Rith\\Desktop\\Code_Archive\\Csharp\\S1_Project\\Book_Store_System\\book_store_system_gui\\Library\\Book.cs*",
-              "RelativeToolTip": "Library\\Book.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-28T13:58:01.04Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Check.cs",
-              "DocumentMoniker": "C:\\Users\\Rith\\Desktop\\Code_Archive\\Csharp\\S1_Project\\Book_Store_System\\book_store_system_gui\\Library\\Check.cs",
-              "RelativeDocumentMoniker": "Library\\Check.cs",
-              "ToolTip": "C:\\Users\\Rith\\Desktop\\Code_Archive\\Csharp\\S1_Project\\Book_Store_System\\book_store_system_gui\\Library\\Check.cs",
-              "RelativeToolTip": "Library\\Check.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAgwCUAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-28T13:58:00.064Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Log.cs",
-              "DocumentMoniker": "C:\\Users\\Rith\\Desktop\\Code_Archive\\Csharp\\S1_Project\\Book_Store_System\\book_store_system_gui\\Library\\Log.cs",
-              "RelativeDocumentMoniker": "Library\\Log.cs",
-              "ToolTip": "C:\\Users\\Rith\\Desktop\\Code_Archive\\Csharp\\S1_Project\\Book_Store_System\\book_store_system_gui\\Library\\Log.cs",
-              "RelativeToolTip": "Library\\Log.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-28T13:57:30.812Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:1:0:{fabf9319-47eb-497e-b8f6-d9f73fba5f55}"
@@ -99,32 +22,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\Rith\\Desktop\\Code_Archive\\Csharp\\S1_Project\\Book_Store_System\\book_store_system_gui\\Library\\User.cs",
-              "RelativeDocumentMoniker": "Library\\User.cs",
-              "ToolTip": "C:\\Users\\Rith\\Desktop\\Code_Archive\\Csharp\\S1_Project\\Book_Store_System\\book_store_system_gui\\Library\\User.cs*",
-              "RelativeToolTip": "Library\\User.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-28T13:54:25.836Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Account.cs",
-              "DocumentMoniker": "C:\\Users\\Rith\\Desktop\\Code_Archive\\Csharp\\S1_Project\\Book_Store_System\\book_store_system_gui\\Library\\Account.cs",
-              "RelativeDocumentMoniker": "Library\\Account.cs",
-              "ToolTip": "C:\\Users\\Rith\\Desktop\\Code_Archive\\Csharp\\S1_Project\\Book_Store_System\\book_store_system_gui\\Library\\Account.cs*",
-              "RelativeToolTip": "Library\\Account.cs*",
-              "ViewState": "AgIAACoAAAAAAAAAAAAiwAwAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-28T12:26:23.037Z",
-              "EditorCaption": ""
             }
           ]
         }

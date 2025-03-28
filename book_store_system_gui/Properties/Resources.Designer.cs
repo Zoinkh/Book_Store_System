@@ -61,12 +61,22 @@ namespace book_store_system_gui.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        ///   Looks up a localized resource of type System.Byte[].
         /// </summary>
-        internal static System.Drawing.Bitmap _default {
+        internal static byte[] default_Cover {
             get {
-                object obj = ResourceManager.GetObject("default", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
+                object obj = ResourceManager.GetObject("default_Cover", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] default_Profile {
+            get {
+                object obj = ResourceManager.GetObject("default_Profile", resourceCulture);
+                return ((byte[])(obj));
             }
         }
     }

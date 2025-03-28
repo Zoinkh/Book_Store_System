@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ItemDetail));
             label1 = new Label();
             label2 = new Label();
             button1 = new Button();
@@ -45,7 +46,7 @@
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Cambria", 18F, FontStyle.Bold);
-            label1.Location = new Point(422, 59);
+            label1.Location = new Point(134, 50);
             label1.Name = "label1";
             label1.Size = new Size(54, 28);
             label1.TabIndex = 0;
@@ -55,7 +56,7 @@
             // 
             label2.AutoSize = true;
             label2.Font = new Font("Cambria", 18F, FontStyle.Bold);
-            label2.Location = new Point(400, 103);
+            label2.Location = new Point(112, 94);
             label2.Name = "label2";
             label2.Size = new Size(76, 28);
             label2.TabIndex = 1;
@@ -76,7 +77,7 @@
             // 
             label3.AutoSize = true;
             label3.Font = new Font("Cambria", 18F, FontStyle.Bold);
-            label3.Location = new Point(375, 152);
+            label3.Location = new Point(87, 143);
             label3.Name = "label3";
             label3.Size = new Size(101, 28);
             label3.TabIndex = 3;
@@ -87,7 +88,7 @@
             // 
             label4.AutoSize = true;
             label4.Font = new Font("Cambria", 18F, FontStyle.Bold);
-            label4.Location = new Point(345, 203);
+            label4.Location = new Point(57, 194);
             label4.Name = "label4";
             label4.Size = new Size(131, 28);
             label4.TabIndex = 4;
@@ -97,7 +98,7 @@
             // 
             label5.AutoSize = true;
             label5.Font = new Font("Cambria", 18F, FontStyle.Bold);
-            label5.Location = new Point(312, 253);
+            label5.Location = new Point(24, 244);
             label5.Name = "label5";
             label5.Size = new Size(164, 28);
             label5.TabIndex = 5;
@@ -107,7 +108,7 @@
             // 
             label6.AutoSize = true;
             label6.Font = new Font("Cambria", 18F, FontStyle.Bold);
-            label6.Location = new Point(371, 303);
+            label6.Location = new Point(83, 294);
             label6.Name = "label6";
             label6.Size = new Size(105, 28);
             label6.TabIndex = 6;
@@ -117,7 +118,7 @@
             // 
             label7.AutoSize = true;
             label7.Font = new Font("Cambria", 18F, FontStyle.Bold);
-            label7.Location = new Point(400, 359);
+            label7.Location = new Point(112, 350);
             label7.Name = "label7";
             label7.Size = new Size(76, 28);
             label7.TabIndex = 7;
@@ -125,9 +126,11 @@
             // 
             // pictureBox1
             // 
-            pictureBox1.Location = new Point(22, 39);
+            pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
+            pictureBox1.Location = new Point(569, 50);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(267, 366);
+            pictureBox1.Size = new Size(252, 348);
+            pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox1.TabIndex = 9;
             pictureBox1.TabStop = false;
             // 

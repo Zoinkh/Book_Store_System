@@ -29,8 +29,7 @@ namespace book_store_system_gui.Library
 
         private void button4_Click(object sender, EventArgs e)
         {
-            UserHome home = new UserHome();
-            home.Show();
+            this.Close();
         }
     }
 }

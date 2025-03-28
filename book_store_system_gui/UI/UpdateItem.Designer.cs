@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(UpdateItem));
             button2 = new Button();
             button1 = new Button();
             label10 = new Label();
@@ -251,9 +252,11 @@
             // 
             // pictureBox1
             // 
+            pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
             pictureBox1.Location = new Point(309, 97);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(195, 252);
+            pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox1.TabIndex = 42;
             pictureBox1.TabStop = false;
             // 

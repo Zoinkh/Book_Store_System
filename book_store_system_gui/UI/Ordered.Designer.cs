@@ -60,6 +60,7 @@
             button1.TabIndex = 2;
             button1.Text = "Back";
             button1.UseVisualStyleBackColor = false;
+            button1.Click += button1_Click;
             // 
             // Ordered
             // 
@@ -72,6 +73,7 @@
             Controls.Add(listView1);
             Name = "Ordered";
             Text = "Order Form";
+            Load += Ordered_Load;
             ResumeLayout(false);
             PerformLayout();
         }

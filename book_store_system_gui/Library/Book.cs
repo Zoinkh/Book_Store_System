@@ -81,10 +81,10 @@ namespace book_store_system_gui.Library
         }
 
 
-        public void PopulateListView(ListView listView)
+        public static void PopulateListView(ListView listView)
         {
             listView.Items.Clear(); // Clear existing items
-
+            string connectionString = "Database";
             using (var connection = new SQLiteConnection(connectionString))
             {
                 connection.Open();

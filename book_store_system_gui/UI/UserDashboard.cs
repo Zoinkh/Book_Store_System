@@ -17,19 +17,21 @@ namespace book_store_system_gui
         public UserHome()
         {
             InitializeComponent();
+
         }
 
         private void UserHome_Load(object sender, EventArgs e)
         {
-
+            
+            listView1.Columns.Add("Name", 150);
+            listView1.Columns.Add("Age", 50);
+            listView1.Columns.Add("City", 100);
+            listView1.Items.Add(new ListViewItem(new string[] { "John Doe", "30", "New York" }));
+            listView1.Items.Add(new ListViewItem(new string[] { "Jane Smith", "25", "London" }));
+            this.Controls.Add(listView1);
         }
 
         private void button1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void checkedListBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
 
         }
@@ -46,6 +48,11 @@ namespace book_store_system_gui
             Checkout checkout = new Checkout();
             checkout.ShowDialog();
 
+        }
+
+        private void listView1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            
         }
     }
 }

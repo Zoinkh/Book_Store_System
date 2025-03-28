@@ -1,4 +1,5 @@
 ﻿using book_store_system_gui.UI;
+using book_store_system_gui.Library;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -8,11 +9,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data.SQLite;
 
 namespace book_store_system_gui
 {
     public partial class AdimMenu : Form
     {
+       
         public AdimMenu()
         {
             InitializeComponent();
@@ -229,7 +232,12 @@ namespace book_store_system_gui
 
         private void AdimMenu_Load(object sender, EventArgs e)
         {
-
+            listView1.Columns.Add("Name", 150);
+            listView1.Columns.Add("Age", 50);
+            listView1.Columns.Add("City", 100);
+            listView1.Items.Add(new ListViewItem(new string[] { "John Doe", "30", "New York" }));
+            listView1.Items.Add(new ListViewItem(new string[] { "Jane Smith", "25", "London" }));
+            this.Controls.Add(listView1);
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
@@ -240,7 +248,7 @@ namespace book_store_system_gui
 
         private void listView1_SelectedIndexChanged_1(object sender, EventArgs e)
         {
-
+        
         }
     }
 }

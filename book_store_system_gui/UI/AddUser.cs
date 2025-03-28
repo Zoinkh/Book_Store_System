@@ -26,5 +26,10 @@ namespace book_store_system_gui.UI
         {
 
         }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

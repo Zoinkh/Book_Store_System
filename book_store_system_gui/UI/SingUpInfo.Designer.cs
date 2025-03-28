@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(SingUpInfo));
             pictureBox1 = new PictureBox();
             button2 = new Button();
             button1 = new Button();
@@ -44,14 +45,17 @@
             label3 = new Label();
             textBox2 = new TextBox();
             label1 = new Label();
+            button3 = new Button();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
             // pictureBox1
             // 
-            pictureBox1.Location = new Point(341, 70);
+            pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
+            pictureBox1.Location = new Point(329, 68);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(149, 208);
+            pictureBox1.Size = new Size(136, 183);
+            pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox1.TabIndex = 43;
             pictureBox1.TabStop = false;
             // 
@@ -191,19 +195,30 @@
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Cambria", 27.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label1.Location = new Point(228, 14);
+            label1.Location = new Point(186, 9);
             label1.Name = "label1";
             label1.Size = new Size(146, 43);
             label1.TabIndex = 22;
             label1.Text = "Sing Up";
             label1.Click += label1_Click_1;
             // 
+            // button3
+            // 
+            button3.Font = new Font("Cambria", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            button3.Location = new Point(361, 260);
+            button3.Name = "button3";
+            button3.Size = new Size(72, 27);
+            button3.TabIndex = 44;
+            button3.Text = "Upload";
+            button3.UseVisualStyleBackColor = true;
+            // 
             // SingUpInfo
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.LightSkyBlue;
-            ClientSize = new Size(537, 377);
+            ClientSize = new Size(510, 377);
+            Controls.Add(button3);
             Controls.Add(pictureBox1);
             Controls.Add(button2);
             Controls.Add(button1);
@@ -246,5 +261,6 @@
         private Label label3;
         private TextBox textBox2;
         private Label label1;
+        private Button button3;
     }
 }
