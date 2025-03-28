@@ -8,7 +8,6 @@ namespace book_store_system_gui.Library
 {
     public class Log
     {
-        DateTime currentTim;
         public static void Logger(string message, string filePath = "log.txt")
         {
             try

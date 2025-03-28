@@ -50,6 +50,7 @@
             textBox1 = new TextBox();
             label1 = new Label();
             pictureBox1 = new PictureBox();
+            button4 = new Button();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
@@ -241,11 +242,12 @@
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Cambria", 27.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label1.Location = new Point(38, 24);
+            label1.Location = new Point(160, 23);
             label1.Name = "label1";
             label1.Size = new Size(228, 43);
             label1.TabIndex = 21;
             label1.Text = "Update Item";
+            label1.Click += label1_Click;
             // 
             // pictureBox1
             // 
@@ -255,12 +257,23 @@
             pictureBox1.TabIndex = 42;
             pictureBox1.TabStop = false;
             // 
+            // button4
+            // 
+            button4.Font = new Font("Cambria", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            button4.Location = new Point(378, 355);
+            button4.Name = "button4";
+            button4.Size = new Size(62, 24);
+            button4.TabIndex = 44;
+            button4.Text = "Upload";
+            button4.UseVisualStyleBackColor = true;
+            // 
             // UpdateItem
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.LightSkyBlue;
             ClientSize = new Size(522, 504);
+            Controls.Add(button4);
             Controls.Add(pictureBox1);
             Controls.Add(button2);
             Controls.Add(button1);
@@ -314,5 +327,6 @@
         private TextBox textBox1;
         private Label label1;
         private PictureBox pictureBox1;
+        private Button button4;
     }
 }

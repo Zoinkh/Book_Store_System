@@ -46,6 +46,7 @@
             label16 = new Label();
             label17 = new Label();
             button2 = new Button();
+            button3 = new Button();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
@@ -53,7 +54,7 @@
             // 
             pictureBox1.Location = new Point(378, 88);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(185, 246);
+            pictureBox1.Size = new Size(166, 210);
             pictureBox1.TabIndex = 41;
             pictureBox1.TabStop = false;
             // 
@@ -217,12 +218,23 @@
             button2.Text = "Cancel";
             button2.UseVisualStyleBackColor = false;
             // 
+            // button3
+            // 
+            button3.Font = new Font("Cambria", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            button3.Location = new Point(426, 307);
+            button3.Name = "button3";
+            button3.Size = new Size(72, 25);
+            button3.TabIndex = 52;
+            button3.Text = "Upload";
+            button3.UseVisualStyleBackColor = true;
+            // 
             // AddItem
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.LightSkyBlue;
-            ClientSize = new Size(619, 450);
+            ClientSize = new Size(592, 447);
+            Controls.Add(button3);
             Controls.Add(button2);
             Controls.Add(label11);
             Controls.Add(label12);
@@ -269,5 +281,6 @@
         private Label label16;
         private Label label17;
         private Button button2;
+        private Button button3;
     }
 }

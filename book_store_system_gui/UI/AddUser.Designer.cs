@@ -48,14 +48,15 @@
             label1 = new Label();
             button1 = new Button();
             radioButton1 = new RadioButton();
+            button2 = new Button();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
             // pictureBox1
             // 
-            pictureBox1.Location = new Point(408, 78);
+            pictureBox1.Location = new Point(391, 81);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(211, 261);
+            pictureBox1.Size = new Size(154, 213);
             pictureBox1.TabIndex = 41;
             pictureBox1.TabStop = false;
             // 
@@ -219,7 +220,7 @@
             // 
             button1.BackColor = Color.LightGreen;
             button1.Font = new Font("Cambria", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            button1.Location = new Point(162, 420);
+            button1.Location = new Point(162, 401);
             button1.Name = "button1";
             button1.Size = new Size(253, 45);
             button1.TabIndex = 42;
@@ -238,12 +239,23 @@
             radioButton1.Text = "Adminstrator";
             radioButton1.UseVisualStyleBackColor = true;
             // 
+            // button2
+            // 
+            button2.Font = new Font("Cambria", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            button2.Location = new Point(437, 304);
+            button2.Name = "button2";
+            button2.Size = new Size(69, 23);
+            button2.TabIndex = 44;
+            button2.Text = "Upload";
+            button2.UseVisualStyleBackColor = true;
+            // 
             // AddUser
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.LightSkyBlue;
-            ClientSize = new Size(681, 488);
+            ClientSize = new Size(580, 483);
+            Controls.Add(button2);
             Controls.Add(radioButton1);
             Controls.Add(button1);
             Controls.Add(pictureBox1);
@@ -293,5 +305,6 @@
         private Label label1;
         private Button button1;
         private RadioButton radioButton1;
+        private Button button2;
     }
 }

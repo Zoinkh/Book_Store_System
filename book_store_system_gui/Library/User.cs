@@ -8,8 +8,6 @@ namespace book_store_system_gui.Library
 {
     internal class User : Account
     {
-        Account account = new Account();
-        
-
+        public  bool permission = false;
     }
 }

@@ -8,8 +8,7 @@ namespace book_store_system_gui.Library
 {
     class Admin: Account
     {
-        Account admin = new Account();
+        public bool permission = true;
 
-       
     }
 }

@@ -7,19 +7,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-    
+
 namespace book_store_system_gui.UI
 {
-    public partial class UpdateItem : Form
+    public partial class Receipt : Form
     {
-        public UpdateItem()
+        public Receipt()
         {
             InitializeComponent();
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }

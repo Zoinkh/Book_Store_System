@@ -1,16 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Rith\\Desktop\\Code_Archive\\Csharp\\S1_Project\\Book_Store_System\\book_store_system_gui\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{24027F13-5085-4825-B69E-8B56DC8F24A1}|book_store_system_gui.csproj|c:\\users\\rith\\desktop\\code_archive\\csharp\\s1_project\\book_store_system\\book_store_system_gui\\ui\\admindashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{24027F13-5085-4825-B69E-8B56DC8F24A1}|book_store_system_gui.csproj|solutionrelative:ui\\admindashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{24027F13-5085-4825-B69E-8B56DC8F24A1}|book_store_system_gui.csproj|c:\\users\\rith\\desktop\\code_archive\\csharp\\s1_project\\book_store_system\\book_store_system_gui\\ui\\admindashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{24027F13-5085-4825-B69E-8B56DC8F24A1}|book_store_system_gui.csproj|solutionrelative:ui\\admindashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -18,7 +9,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -31,31 +22,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AdminDashboard.cs",
-              "DocumentMoniker": "C:\\Users\\Rith\\Desktop\\Code_Archive\\Csharp\\S1_Project\\Book_Store_System\\book_store_system_gui\\UI\\AdminDashboard.cs",
-              "RelativeDocumentMoniker": "UI\\AdminDashboard.cs",
-              "ToolTip": "C:\\Users\\Rith\\Desktop\\Code_Archive\\Csharp\\S1_Project\\Book_Store_System\\book_store_system_gui\\UI\\AdminDashboard.cs",
-              "RelativeToolTip": "UI\\AdminDashboard.cs",
-              "ViewState": "AgIAAMUAAAAAAAAAAAAswMwAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-27T16:11:13.133Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AdminDashboard.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Rith\\Desktop\\Code_Archive\\Csharp\\S1_Project\\Book_Store_System\\book_store_system_gui\\UI\\AdminDashboard.cs",
-              "RelativeDocumentMoniker": "UI\\AdminDashboard.cs",
-              "ToolTip": "C:\\Users\\Rith\\Desktop\\Code_Archive\\Csharp\\S1_Project\\Book_Store_System\\book_store_system_gui\\UI\\AdminDashboard.cs [Design]",
-              "RelativeToolTip": "UI\\AdminDashboard.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-27T16:11:09.816Z",
-              "EditorCaption": " [Design]"
             }
           ]
         }

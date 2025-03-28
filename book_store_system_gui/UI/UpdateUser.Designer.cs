@@ -52,6 +52,7 @@
             pictureBox1 = new PictureBox();
             label11 = new Label();
             textBox10 = new TextBox();
+            button3 = new Button();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
@@ -277,12 +278,23 @@
             textBox10.Size = new Size(182, 30);
             textBox10.TabIndex = 22;
             // 
+            // button3
+            // 
+            button3.Font = new Font("Cambria", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            button3.Location = new Point(409, 348);
+            button3.Name = "button3";
+            button3.Size = new Size(89, 25);
+            button3.TabIndex = 24;
+            button3.Text = "Upload";
+            button3.UseVisualStyleBackColor = true;
+            // 
             // UpdateUser
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.LightSkyBlue;
             ClientSize = new Size(605, 493);
+            Controls.Add(button3);
             Controls.Add(label11);
             Controls.Add(textBox10);
             Controls.Add(pictureBox1);
@@ -341,5 +353,6 @@
         private PictureBox pictureBox1;
         private Label label11;
         private TextBox textBox10;
+        private Button button3;
     }
 }

@@ -3,15 +3,18 @@
 
 +Note
 	-sql 101
-
+	-Database Design 101
 
 +UI
-	-addForm
-	-addToCart
-	-report
-	-receit
-	-
+x	-add Form
+x	-addToCart
+x	-report
+x	-receit
+	-print out data form db
 
++DB
+	-set account no duplicate
+	-set relationship account and book one2many
 
 
 +Idea
